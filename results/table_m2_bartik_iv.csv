@@ -1,0 +1,4 @@
+method,outcome,label,beta,se,t_stat,p_value,first_stage_f,first_stage_p,n_obs
+Bartik IV (2SLS),log_wage,Log Mean Annual Wage,-0.0731,0.0074,-9.86,0.0,9219.1,0.0,4271
+Bartik IV (2SLS),log_emp,Log Total Employment,0.1174,0.0193,6.077,0.0,9216.4,0.0,4270
+Bartik IV (2SLS),log_wbill,Log Wage Bill,0.0443,0.0211,2.102,0.0356,9216.4,0.0,4270
