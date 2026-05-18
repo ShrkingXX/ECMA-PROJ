@@ -8,7 +8,7 @@ Person  : B (data lead)
 
 PURPOSE
 -------
-Reads raw OEWS national Excel files (2019–2024), filters to national ×
+Reads raw OEWS national Excel files (2019–2025), filters to national ×
 detailed × cross-industry rows, handles BLS suppression flags, applies a
 SOC vintage crosswalk for 2019, constructs three log outcomes, and outputs
 a clean long-format panel ready to merge with Eloundou et al. exposure scores.
@@ -25,13 +25,10 @@ HOW TO USE
    2022  https://www.bls.gov/oes/special.requests/oesm22nat.zip
    2023  https://www.bls.gov/oes/special.requests/oesm23nat.zip
    2024  https://www.bls.gov/oes/special.requests/oesm24nat.zip
+   2025  https://www.bls.gov/oes/special.requests/oesm25nat.zip
 
    Each zip contains one file named all_data_M_{YEAR}.xlsx.
    Extract it and place in:  data/raw/oews/
-
-2. (FUTURE) May 2025 data releases May 15, 2026 at 10am ET.
-   Download oesm25nat.zip → extract → place in data/raw/oews/.
-   Then add 2025 to YEARS below. Nothing else changes.
 
 3. Run:  python 01_process_oews.py
 
@@ -102,7 +99,7 @@ PANEL STRUCTURE (one row = one detailed occupation × one survey year)
   suppressed_wage  1 = a_mean withheld by BLS
   soc_remapped     1 = SOC code was reassigned via 2019→2018 crosswalk
   post             1 if year > 2022  (post-ChatGPT release Nov 2022)
-  event_time       year − 2022  (τ for event-study dummies)
+  event_time       year − 2022  (τ for event-study dummies; −3 … +3)
   balanced         1 = occupation present in ALL years (needed for Methods 3/4)
 ================================================================================
 """
@@ -119,8 +116,7 @@ from pathlib import Path
 RAW_DIR       = Path("data/raw/oews")
 PROCESSED_DIR = Path("data/processed")
 
-# Add 2025 here once the May 15, 2026 release is available
-YEARS = [2019, 2020, 2021, 2022, 2023, 2024]
+YEARS = [2019, 2020, 2021, 2022, 2023, 2024, 2025]
 
 # Last pre-treatment survey year.
 # ChatGPT launched Nov 2022; OEWS reference period is May, so May 2022

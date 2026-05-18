@@ -5,26 +5,31 @@ year,event_time,post,occ_code,occ_title,tot_emp,a_mean,h_mean,wage_bill,log_wage
 2022,0,0,27-2011,Actors,54160.0,,36.06,,,10.899697907586157,,0,True,0,1
 2023,1,1,27-2011,Actors,62560.0,,41.01,,,11.043881375219193,,0,True,0,1
 2024,2,1,27-2011,Actors,38800.0,,44.4,,,10.566175525611365,,0,True,0,1
+2025,3,1,27-2011,Actors,55000.0,,58.29,,,10.915088464214607,,0,True,0,1
 2019,-3,0,27-2031,Dancers,9690.0,,22.91,,,9.178849704884811,,0,True,0,1
 2020,-2,0,27-2031,Dancers,7370.0,,25.08,,,8.905172985183382,,0,True,0,1
 2021,-1,0,27-2031,Dancers,3850.0,,24.49,,,8.25582842728183,,0,True,0,1
 2022,0,0,27-2031,Dancers,8930.0,,24.62,,,9.097171673870545,,0,True,0,1
 2023,1,1,27-2031,Dancers,11510.0,,29.56,,,9.350971501715929,,0,True,0,1
 2024,2,1,27-2031,Dancers,9060.0,,30.3,,,9.111624399037025,,0,True,0,1
+2025,3,1,27-2031,Dancers,8130.0,,30.83,,,9.003316202541857,,0,True,0,1
 2019,-3,0,27-2042,Musicians and Singers,41130.0,,39.96,,,10.62449306122447,,0,True,0,1
 2020,-2,0,27-2042,Musicians and Singers,34770.0,,41.72,,,10.456510225001907,,0,True,0,1
 2021,-1,0,27-2042,Musicians and Singers,24080.0,,41.46,,,10.089136899422757,,0,True,0,1
 2022,0,0,27-2042,Musicians and Singers,31750.0,,50.21,,,10.365648004320837,,0,True,0,1
 2023,1,1,27-2042,Musicians and Singers,35520.0,,51.65,,,10.477851197106107,,0,True,0,1
 2024,2,1,27-2042,Musicians and Singers,38350.0,,55.13,,,10.554509806795402,,0,True,0,1
+2025,3,1,27-2042,Musicians and Singers,36180.0,,60.46,,,10.496261758949286,,0,True,0,1
 2019,-3,0,27-2090,"Miscellaneous Entertainers and Performers, Sports and Related Workers",15840.0,,23.4,,,9.670293665368417,,0,True,0,0
 2020,-2,0,27-2090,"Miscellaneous Entertainers and Performers, Sports and Related Workers",13760.0,,23.99,,,9.529521111487334,,0,True,0,0
 2021,-1,0,27-2091,"Disc Jockeys, Except Radio",4770.0,,21.82,,,8.470101583882387,,0,True,0,0
 2022,0,0,27-2091,"Disc Jockeys, Except Radio",5640.0,,25.48,,,8.637639344492104,,0,True,0,0
 2023,1,1,27-2091,"Disc Jockeys, Except Radio",7190.0,,31.39,,,8.880446450715093,,0,True,0,0
 2024,2,1,27-2091,"Disc Jockeys, Except Radio",8170.0,,33.25,,,9.008224187854049,,0,True,0,0
+2025,3,1,27-2091,"Disc Jockeys, Except Radio",7920.0,,32.57,,,8.977146484808472,,0,True,0,0
 2021,-1,0,27-2099,"Entertainers and Performers, Sports and Related Workers, All Other",8300.0,,24.62,,,9.02401079378469,,0,True,0,0
 2022,0,0,27-2099,"Entertainers and Performers, Sports and Related Workers, All Other",11640.0,,29.67,,,9.36220272128543,,0,True,0,0
 2023,1,1,27-2099,"Entertainers and Performers, Sports and Related Workers, All Other",14720.0,,30.03,,,9.596962392282867,,0,True,0,0
 2024,2,1,27-2099,"Entertainers and Performers, Sports and Related Workers, All Other",15040.0,,29.74,,,9.618468597503831,,0,True,0,0
+2025,3,1,27-2099,"Entertainers and Performers, Sports and Related Workers, All Other",16550.0,,30.7,,,9.71414138080521,,0,True,0,0
 2021,-1,0,41-9012,Models,2000.0,,,,,7.600902459542082,,0,True,0,1
