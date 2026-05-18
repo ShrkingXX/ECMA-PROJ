@@ -1,0 +1,2 @@
+step,equation,beta,se,t_stat,p_value,f_stat,n_obs,note
+first_stage,dv_beta × post → log_emp,0.067,0.0312,2.148,0.0318,13.87,4270,instrument relevance check; need F > 10

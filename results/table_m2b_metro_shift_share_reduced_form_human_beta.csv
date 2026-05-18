@@ -1,0 +1,2 @@
+exposure_measure,equation,outcome,coefficient,se,t_stat,p_value,n_obs,n_metros
+human_beta,reduced_form,log_wage,0.004938753876250377,0.0715654521419073,0.06901030774538126,0.9449908388779396,1764,294
