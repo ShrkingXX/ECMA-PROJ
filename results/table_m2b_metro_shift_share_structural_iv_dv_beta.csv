@@ -1,0 +1,2 @@
+exposure_measure,equation,outcome,endogenous,instrument,epsilon_inverse_labor_supply,se,t_stat,p_value,first_stage_f,first_stage_p,n_obs,n_metros
+dv_beta,structural_iv,log_wage,log_emp,bartik_exposure_x_post,0.0906839553057369,0.5492152425326917,0.16511551079236297,0.8688530647307302,1.5323706873817222,0.21575699525461556,1764,294

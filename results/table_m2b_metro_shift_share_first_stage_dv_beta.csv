@@ -1,0 +1,2 @@
+exposure_measure,equation,outcome,coefficient,se,t_stat,p_value,n_obs,n_metros
+dv_beta,first_stage,log_emp,-0.11683142452502784,0.10359922491429129,-1.1277248900431802,0.2596209074655915,1764,294

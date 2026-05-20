@@ -1,0 +1,2 @@
+step,equation,beta,se,t_stat,p_value,n_obs,note
+reduced_form,dv_beta × post → log_wage,-0.0661,0.0104,-6.352,0.0,4270,same as Method 1 OLS DiD for log_wage

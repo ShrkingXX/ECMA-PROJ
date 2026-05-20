@@ -1,0 +1,2 @@
+exposure_measure,equation,outcome,coefficient,se,t_stat,p_value,n_obs,n_metros
+human_beta,first_stage,log_emp,-0.049184861053570374,0.1231690199559855,-0.39932818391464514,0.6897096475696292,1764,294

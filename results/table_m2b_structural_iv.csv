@@ -1,0 +1,3 @@
+step,equation,beta,se,t_stat,p_value,first_stage_f,n_obs,note
+wald_preview,β_RF / π_FS,-0.9866,,,,,,Wald estimate; should ≈ 2SLS epsilon
+structural_2sls,log_emp → log_wage  (IV: dv_beta × post),-0.9847,0.2841,-3.466,0.0005,14.34,4270.0,epsilon = slope of labor supply curve (log-log)
