@@ -1,0 +1,862 @@
+occ_code,occ_title,match_status,imputed_from,dv_beta_imputed,exposure_residual
+11-1011,Chief Executives,direct,,0.5078,0
+11-1021,General and Operations Managers,direct,,0.4808,0
+11-1031,Legislators,direct,,0.4,0
+11-2011,Advertising and Promotions Managers,direct,,0.4767,0
+11-2021,Marketing Managers,direct,,0.5,0
+11-2022,Sales Managers,direct,,0.45,0
+11-2032,Public Relations Managers,direct,,0.55,0
+11-2033,Fundraising Managers,direct,,0.5625,0
+11-3012,Administrative Services Managers,direct,,0.3913,0
+11-3013,Facilities Managers,direct,,0.4002,0
+11-3021,Computer and Information Systems Managers,direct,,0.5303,0
+11-3031,Financial Managers,direct,,0.4851,0
+11-3051,Industrial Production Managers,direct,,0.4057,0
+11-3061,Purchasing Managers,direct,,0.5857,0
+11-3071,"Transportation, Storage, and Distribution Managers",direct,,0.4865,0
+11-3111,Compensation and Benefits Managers,direct,,0.5132,0
+11-3121,Human Resources Managers,direct,,0.48,0
+11-3131,Training and Development Managers,direct,,0.5,0
+11-9013,"Farmers, Ranchers, and Other Agricultural Managers",direct,,0.3673,0
+11-9021,Construction Managers,direct,,0.4444,0
+11-9031,"Education and Childcare Administrators, Preschool and Daycare",direct,,0.4688,0
+11-9032,"Education Administrators, Kindergarten through Secondary",direct,,0.4182,0
+11-9033,"Education Administrators, Postsecondary",direct,,0.439,0
+11-9041,Architectural and Engineering Managers,direct,,0.4426,0
+11-9051,Food Service Managers,direct,,0.4167,0
+11-9071,Gambling Managers,direct,,0.5735,0
+11-9072,"Entertainment and Recreation Managers, Except Gambling",direct,,0.3529,1
+11-9081,Lodging Managers,direct,,0.4565,0
+11-9111,Medical and Health Services Managers,direct,,0.4286,0
+11-9121,Natural Sciences Managers,direct,,0.5307,0
+11-9131,Postmasters and Mail Superintendents,direct,,0.5238,0
+11-9141,"Property, Real Estate, and Community Association Managers",direct,,0.4432,0
+11-9151,Social and Community Service Managers,direct,,0.3929,0
+11-9161,Emergency Management Directors,direct,,0.4222,0
+11-9171,Funeral Home Managers,direct,,0.4286,0
+11-9179,"Personal Service Managers, All Other",direct,,0.4521,1
+11-9199,"Managers, All Other",direct,,0.4913,1
+13-1011,"Agents and Business Managers of Artists, Performers, and Athletes",direct,,0.5435,0
+13-1031,"Claims Adjusters, Examiners, and Investigators",direct,,0.52,0
+13-1032,"Insurance Appraisers, Auto Damage",direct,,0.5,0
+13-1041,Compliance Officers,direct,,0.5263,0
+13-1051,Cost Estimators,direct,,0.5,0
+13-1071,Human Resources Specialists,direct,,0.6444,0
+13-1074,Farm Labor Contractors,direct,,0.1429,0
+13-1075,Labor Relations Specialists,direct,,0.5472,0
+13-1081,Logisticians,direct,,0.5279,0
+13-1082,Project Management Specialists,direct,,0.55,0
+13-1111,Management Analysts,direct,,0.4048,0
+13-1121,"Meeting, Convention, and Event Planners",direct,,0.4865,0
+13-1131,Fundraisers,direct,,0.5192,0
+13-1141,"Compensation, Benefits, and Job Analysis Specialists",direct,,0.4737,0
+13-1151,Training and Development Specialists,direct,,0.5526,0
+13-1161,Market Research Analysts and Marketing Specialists,direct,,0.5246,0
+13-1199,"Business Operations Specialists, All Other",direct,,0.5828,1
+13-2011,Accountants and Auditors,direct,,0.56,0
+13-2031,Budget Analysts,direct,,0.52,0
+13-2041,Credit Analysts,direct,,0.5556,0
+13-2051,Financial and Investment Analysts,direct,,0.4615,0
+13-2052,Personal Financial Advisors,direct,,0.5,0
+13-2053,Insurance Underwriters,direct,,0.5714,0
+13-2054,Financial Risk Specialists,direct,,0.5333,0
+13-2061,Financial Examiners,direct,,0.5,0
+13-2071,Credit Counselors,direct,,0.625,0
+13-2072,Loan Officers,direct,,0.5909,0
+13-2081,"Tax Examiners and Collectors, and Revenue Agents",direct,,0.5806,0
+13-2082,Tax Preparers,direct,,0.625,0
+13-2099,"Financial Specialists, All Other",direct,,0.5832,1
+15-1211,Computer Systems Analysts,direct,,0.6174,0
+15-1212,Information Security Analysts,direct,,0.6522,0
+15-1221,Computer and Information Research Scientists,direct,,0.6346,0
+15-1231,Computer Network Support Specialists,direct,,0.6346,0
+15-1232,Computer User Support Specialists,direct,,0.6111,0
+15-1241,Computer Network Architects,direct,,0.6352,0
+15-1242,Database Administrators,direct,,0.9355,0
+15-1243,Database Architects,direct,,0.9112,0
+15-1244,Network and Computer Systems Administrators,direct,,0.7297,0
+15-1251,Computer Programmers,direct,,0.95,0
+15-1252,Software Developers,direct,,0.8684,0
+15-1253,Software Quality Assurance Analysts and Testers,direct,,0.8772,0
+15-1254,Web Developers,direct,,0.9327,0
+15-1255,Web and Digital Interface Designers,direct,,0.75,0
+15-1299,"Computer Occupations, All Other",direct,,0.7358,1
+15-2011,Actuaries,direct,,0.5,0
+15-2021,Mathematicians,direct,,1.0,0
+15-2031,Operations Research Analysts,direct,,0.629,0
+15-2041,Statisticians,direct,,0.7247,0
+15-2051,Data Scientists,direct,,0.6948,0
+15-2099,"Mathematical Science Occupations, All Other",direct,,0.8667,1
+17-1011,"Architects, Except Landscape and Naval",direct,,0.4884,1
+17-1012,Landscape Architects,direct,,0.4211,0
+17-1021,Cartographers and Photogrammetrists,direct,,0.52,0
+17-1022,Surveyors,direct,,0.5101,0
+17-2011,Aerospace Engineers,direct,,0.5714,0
+17-2021,Agricultural Engineers,direct,,0.4259,0
+17-2031,Bioengineers and Biomedical Engineers,direct,,0.5897,0
+17-2041,Chemical Engineers,direct,,0.4615,0
+17-2051,Civil Engineers,direct,,0.4821,0
+17-2061,Computer Hardware Engineers,direct,,0.7273,0
+17-2071,Electrical Engineers,direct,,0.5625,0
+17-2072,"Electronics Engineers, Except Computer",direct,,0.6201,1
+17-2081,Environmental Engineers,direct,,0.5556,0
+17-2111,"Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",direct,,0.5042,1
+17-2112,Industrial Engineers,direct,,0.5544,0
+17-2121,Marine Engineers and Naval Architects,direct,,0.4211,0
+17-2131,Materials Engineers,direct,,0.4878,0
+17-2141,Mechanical Engineers,direct,,0.5313,0
+17-2151,"Mining and Geological Engineers, Including Mining Safety Engineers",direct,,0.4815,0
+17-2161,Nuclear Engineers,direct,,0.55,0
+17-2171,Petroleum Engineers,direct,,0.5278,0
+17-2199,"Engineers, All Other",direct,,0.5226,1
+17-3011,Architectural and Civil Drafters,direct,,0.54,0
+17-3012,Electrical and Electronics Drafters,direct,,0.5745,0
+17-3013,Mechanical Drafters,direct,,0.5,0
+17-3021,Aerospace Engineering and Operations Technologists and Technicians,direct,,0.325,0
+17-3022,Civil Engineering Technologists and Technicians,direct,,0.5909,0
+17-3023,Electrical and Electronic Engineering Technologists and Technicians,direct,,0.4057,0
+17-3024,Electro-Mechanical and Mechatronics Technologists and Technicians,direct,,0.3874,0
+17-3025,Environmental Engineering Technologists and Technicians,direct,,0.4079,0
+17-3026,Industrial Engineering Technologists and Technicians,direct,,0.419,0
+17-3027,Mechanical Engineering Technologists and Technicians,direct,,0.3787,0
+17-3028,Calibration Technologists and Technicians,direct,,0.4,0
+17-3029,"Engineering Technologists and Technicians, Except Drafters, All Other",direct,,0.2688,1
+17-3031,Surveying and Mapping Technicians,direct,,0.5,0
+19-1011,Animal Scientists,direct,,0.5312,0
+19-1012,Food Scientists and Technologists,direct,,0.3462,0
+19-1013,Soil and Plant Scientists,direct,,0.4891,0
+19-1021,Biochemists and Biophysicists,direct,,0.4545,0
+19-1022,Microbiologists,direct,,0.3958,0
+19-1023,Zoologists and Wildlife Biologists,direct,,0.4524,0
+19-1029,"Biological Scientists, All Other",direct,,0.5492,1
+19-1031,Conservation Scientists,direct,,0.4394,0
+19-1032,Foresters,direct,,0.3676,0
+19-1041,Epidemiologists,direct,,0.4423,0
+19-1042,"Medical Scientists, Except Epidemiologists",direct,,0.5227,1
+19-2011,Astronomers,direct,,0.4375,0
+19-2012,Physicists,direct,,0.75,0
+19-2021,Atmospheric and Space Scientists,direct,,0.5652,0
+19-2031,Chemists,direct,,0.38,0
+19-2032,Materials Scientists,direct,,0.4828,0
+19-2041,"Environmental Scientists and Specialists, Including Health",direct,,0.5217,0
+19-2042,"Geoscientists, Except Hydrologists and Geographers",direct,,0.4667,1
+19-2043,Hydrologists,direct,,0.5,0
+19-2099,"Physical Scientists, All Other",direct,,0.4565,1
+19-3011,Economists,direct,,0.5526,0
+19-3022,Survey Researchers,direct,,0.625,0
+19-3032,Industrial-Organizational Psychologists,direct,,0.4889,0
+19-3033,Clinical and Counseling Psychologists,direct,,0.3704,0
+19-3034,School Psychologists,direct,,0.3919,0
+19-3039,"Psychologists, All Other",direct,,0.4544,1
+19-3041,Sociologists,direct,,0.5385,0
+19-3051,Urban and Regional Planners,direct,,0.4773,0
+19-3091,Anthropologists and Archeologists,direct,,0.4397,0
+19-3092,Geographers,direct,,0.5,0
+19-3093,Historians,direct,,0.4737,0
+19-3094,Political Scientists,direct,,0.4792,0
+19-3099,"Social Scientists and Related Workers, All Other",direct,,0.5233,1
+19-4012,Agricultural Technicians,direct,,0.4097,0
+19-4013,Food Science Technicians,direct,,0.3571,0
+19-4021,Biological Technicians,direct,,0.4167,0
+19-4031,Chemical Technicians,direct,,0.3929,0
+19-4042,"Environmental Science and Protection Technicians, Including Health",direct,,0.4556,0
+19-4043,"Geological Technicians, Except Hydrologic Technicians",direct,,0.3902,1
+19-4044,Hydrologic Technicians,direct,,0.5,0
+19-4051,Nuclear Technicians,direct,,0.1851,0
+19-4061,Social Science Research Assistants,direct,,0.6667,0
+19-4071,Forest and Conservation Technicians,direct,,0.3269,0
+19-4092,Forensic Science Technicians,direct,,0.3871,0
+19-4099,"Life, Physical, and Social Science Technicians, All Other",direct,,0.5348,1
+19-5011,Occupational Health and Safety Specialists,direct,,0.3333,0
+19-5012,Occupational Health and Safety Technicians,direct,,0.3958,0
+21-1012,"Educational, Guidance, and Career Counselors and Advisors",direct,,0.2895,0
+21-1013,Marriage and Family Therapists,direct,,0.1111,0
+21-1015,Rehabilitation Counselors,direct,,0.3548,0
+21-1021,"Child, Family, and School Social Workers",direct,,0.2429,0
+21-1022,Healthcare Social Workers,direct,,0.3438,0
+21-1023,Mental Health and Substance Abuse Social Workers,direct,,0.2708,0
+21-1091,Health Education Specialists,direct,,0.5323,0
+21-1092,Probation Officers and Correctional Treatment Specialists,direct,,0.3947,0
+21-1093,Social and Human Service Assistants,direct,,0.3929,0
+21-1094,Community Health Workers,direct,,0.3194,0
+21-2011,Clergy,direct,,0.3333,0
+21-2021,"Directors, Religious Activities and Education",direct,,0.4394,0
+23-1011,Lawyers,direct,,0.425,0
+23-1012,Judicial Law Clerks,direct,,0.5172,0
+23-1021,"Administrative Law Judges, Adjudicators, and Hearing Officers",direct,,0.5,0
+23-1022,"Arbitrators, Mediators, and Conciliators",direct,,0.5,0
+23-1023,"Judges, Magistrate Judges, and Magistrates",direct,,0.4167,0
+23-2011,Paralegals and Legal Assistants,direct,,0.525,0
+23-2093,"Title Examiners, Abstractors, and Searchers",direct,,0.5714,0
+25-1011,"Business Teachers, Postsecondary",direct,,0.4886,0
+25-1021,"Computer Science Teachers, Postsecondary",direct,,0.5119,0
+25-1022,"Mathematical Science Teachers, Postsecondary",direct,,0.5405,0
+25-1031,"Architecture Teachers, Postsecondary",direct,,0.4878,0
+25-1032,"Engineering Teachers, Postsecondary",direct,,0.5,0
+25-1041,"Agricultural Sciences Teachers, Postsecondary",direct,,0.5,0
+25-1042,"Biological Science Teachers, Postsecondary",direct,,0.4694,0
+25-1043,"Forestry and Conservation Science Teachers, Postsecondary",direct,,0.4783,0
+25-1051,"Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",direct,,0.475,0
+25-1052,"Chemistry Teachers, Postsecondary",direct,,0.4314,0
+25-1053,"Environmental Science Teachers, Postsecondary",direct,,0.5217,0
+25-1054,"Physics Teachers, Postsecondary",direct,,0.4186,0
+25-1061,"Anthropology and Archeology Teachers, Postsecondary",direct,,0.5204,0
+25-1062,"Area, Ethnic, and Cultural Studies Teachers, Postsecondary",direct,,0.5,0
+25-1063,"Economics Teachers, Postsecondary",direct,,0.4756,0
+25-1064,"Geography Teachers, Postsecondary",direct,,0.4773,0
+25-1065,"Political Science Teachers, Postsecondary",direct,,0.4756,0
+25-1066,"Psychology Teachers, Postsecondary",direct,,0.48,0
+25-1067,"Sociology Teachers, Postsecondary",direct,,0.4318,0
+25-1071,"Health Specialties Teachers, Postsecondary",direct,,0.475,0
+25-1072,"Nursing Instructors and Teachers, Postsecondary",direct,,0.402,0
+25-1081,"Education Teachers, Postsecondary",direct,,0.4881,0
+25-1082,"Library Science Teachers, Postsecondary",direct,,0.5106,0
+25-1111,"Criminal Justice and Law Enforcement Teachers, Postsecondary",direct,,0.5,0
+25-1112,"Law Teachers, Postsecondary",direct,,0.45,0
+25-1113,"Social Work Teachers, Postsecondary",direct,,0.4205,0
+25-1121,"Art, Drama, and Music Teachers, Postsecondary",direct,,0.4375,0
+25-1122,"Communications Teachers, Postsecondary",direct,,0.425,0
+25-1123,"English Language and Literature Teachers, Postsecondary",direct,,0.5268,0
+25-1124,"Foreign Language and Literature Teachers, Postsecondary",direct,,0.5333,0
+25-1125,"History Teachers, Postsecondary",direct,,0.5111,0
+25-1126,"Philosophy and Religion Teachers, Postsecondary",direct,,0.5114,0
+25-1192,"Family and Consumer Sciences Teachers, Postsecondary",direct,,0.5375,0
+25-1193,"Recreation and Fitness Studies Teachers, Postsecondary",direct,,0.5581,0
+25-1194,"Career/Technical Education Teachers, Postsecondary",direct,,0.4872,0
+25-2011,"Preschool Teachers, Except Special Education",direct,,0.2273,1
+25-2012,"Kindergarten Teachers, Except Special Education",direct,,0.2329,1
+25-2021,"Elementary School Teachers, Except Special Education",direct,,0.3108,1
+25-2022,"Middle School Teachers, Except Special and Career/Technical Education",direct,,0.3478,1
+25-2023,"Career/Technical Education Teachers, Middle School",direct,,0.3226,0
+25-2031,"Secondary School Teachers, Except Special and Career/Technical Education",direct,,0.3333,1
+25-2032,"Career/Technical Education Teachers, Secondary School",direct,,0.3333,0
+25-2051,"Special Education Teachers, Preschool",direct,,0.2,0
+25-2057,"Special Education Teachers, Middle School",direct,,0.3052,0
+25-2058,"Special Education Teachers, Secondary School",direct,,0.3013,0
+25-2059,"Special Education Teachers, All Other",direct,,0.475,1
+25-3011,"Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors",direct,,0.4044,0
+25-3021,Self-Enrichment Teachers,direct,,0.36,0
+25-3031,"Substitute Teachers, Short-Term",direct,,0.3611,0
+25-3041,Tutors,direct,,0.5429,0
+25-4011,Archivists,direct,,0.5,0
+25-4012,Curators,direct,,0.5,0
+25-4013,Museum Technicians and Conservators,direct,,0.2368,0
+25-4022,Librarians and Media Collections Specialists,direct,,0.5351,0
+25-4031,Library Technicians,direct,,0.5673,0
+25-9021,Farm and Home Management Educators,direct,,0.3704,0
+25-9031,Instructional Coordinators,direct,,0.4875,0
+25-9044,"Teaching Assistants, Postsecondary",direct,,0.5303,0
+27-1011,Art Directors,direct,,0.5,0
+27-1012,Craft Artists,direct,,0.2586,0
+27-1013,"Fine Artists, Including Painters, Sculptors, and Illustrators",direct,,0.425,0
+27-1014,Special Effects Artists and Animators,direct,,0.525,0
+27-1021,Commercial and Industrial Designers,direct,,0.4655,0
+27-1022,Fashion Designers,direct,,0.3906,0
+27-1023,Floral Designers,direct,,0.2,0
+27-1024,Graphic Designers,direct,,0.5,0
+27-1025,Interior Designers,direct,,0.5,0
+27-1026,Merchandise Displayers and Window Trimmers,direct,,0.3049,0
+27-1027,Set and Exhibit Designers,direct,,0.3913,0
+27-2011,Actors,direct,,0.1875,0
+27-2012,Producers and Directors,direct,,0.4696,0
+27-2021,Athletes and Sports Competitors,direct,,0.0,0
+27-2022,Coaches and Scouts,direct,,0.3,0
+27-2023,"Umpires, Referees, and Other Sports Officials",direct,,0.3125,0
+27-2031,Dancers,direct,,0.0208,0
+27-2032,Choreographers,direct,,0.2714,0
+27-2041,Music Directors and Composers,direct,,0.7105,0
+27-2042,Musicians and Singers,direct,,0.4082,0
+27-2091,"Disc Jockeys, Except Radio",direct,,0.5263,1
+27-3011,Broadcast Announcers and Radio Disc Jockeys,direct,,0.65,0
+27-3023,"News Analysts, Reporters, and Journalists",direct,,0.65,0
+27-3031,Public Relations Specialists,direct,,0.5909,0
+27-3041,Editors,direct,,0.6471,0
+27-3042,Technical Writers,direct,,0.7,0
+27-3043,Writers and Authors,direct,,0.8771,0
+27-3091,Interpreters and Translators,direct,,0.88,0
+27-3092,Court Reporters and Simultaneous Captioners,direct,,0.9583,0
+27-4011,Audio and Video Technicians,direct,,0.4375,0
+27-4012,Broadcast Technicians,direct,,0.5238,0
+27-4014,Sound Engineering Technicians,direct,,0.4259,0
+27-4015,Lighting Technicians,direct,,0.1562,0
+27-4021,Photographers,direct,,0.3854,0
+27-4031,"Camera Operators, Television, Video, and Film",direct,,0.4242,0
+27-4032,Film and Video Editors,direct,,0.5278,0
+29-1011,Chiropractors,direct,,0.4545,0
+29-1021,"Dentists, General",direct,,0.25,0
+29-1022,Oral and Maxillofacial Surgeons,direct,,0.04,0
+29-1023,Orthodontists,direct,,0.3,0
+29-1024,Prosthodontists,direct,,0.0455,0
+29-1031,Dietitians and Nutritionists,direct,,0.5488,0
+29-1041,Optometrists,direct,,0.3,0
+29-1051,Pharmacists,direct,,0.4286,0
+29-1071,Physician Assistants,direct,,0.2708,0
+29-1081,Podiatrists,direct,,0.2857,0
+29-1122,Occupational Therapists,direct,,0.289,0
+29-1123,Physical Therapists,direct,,0.1915,0
+29-1124,Radiation Therapists,direct,,0.2805,0
+29-1125,Recreational Therapists,direct,,0.3182,0
+29-1126,Respiratory Therapists,direct,,0.2024,0
+29-1127,Speech-Language Pathologists,direct,,0.4512,0
+29-1128,Exercise Physiologists,direct,,0.26,0
+29-1129,"Therapists, All Other",direct,,0.3656,1
+29-1131,Veterinarians,direct,,0.2703,0
+29-1141,Registered Nurses,direct,,0.3802,0
+29-1151,Nurse Anesthetists,direct,,0.1667,0
+29-1161,Nurse Midwives,direct,,0.3902,0
+29-1171,Nurse Practitioners,direct,,0.4815,0
+29-1181,Audiologists,direct,,0.4545,0
+29-1211,Anesthesiologists,direct,,0.25,0
+29-1212,Cardiologists,direct,,0.3462,0
+29-1213,Dermatologists,direct,,0.3824,0
+29-1214,Emergency Medicine Physicians,direct,,0.4412,0
+29-1215,Family Medicine Physicians,direct,,0.4375,0
+29-1216,General Internal Medicine Physicians,direct,,0.4571,0
+29-1217,Neurologists,direct,,0.4565,0
+29-1218,Obstetricians and Gynecologists,direct,,0.3929,0
+29-1221,"Pediatricians, General",direct,,0.4833,0
+29-1222,"Physicians, Pathologists",direct,,0.4697,0
+29-1223,Psychiatrists,direct,,0.4783,0
+29-1224,Radiologists,direct,,0.4889,0
+29-1229,"Physicians, All Other",direct,,0.4164,1
+29-1241,"Ophthalmologists, Except Pediatric",direct,,0.4265,1
+29-1242,"Orthopedic Surgeons, Except Pediatric",direct,,0.3333,1
+29-1243,Pediatric Surgeons,direct,,0.3611,0
+29-1291,Acupuncturists,direct,,0.1667,0
+29-1292,Dental Hygienists,direct,,0.1875,0
+29-1299,"Healthcare Diagnosing or Treating Practitioners, All Other",direct,,0.4964,1
+29-2031,Cardiovascular Technologists and Technicians,direct,,0.3571,0
+29-2032,Diagnostic Medical Sonographers,direct,,0.3026,0
+29-2033,Nuclear Medicine Technologists,direct,,0.2903,0
+29-2034,Radiologic Technologists and Technicians,direct,,0.3772,0
+29-2035,Magnetic Resonance Imaging Technologists,direct,,0.3222,0
+29-2036,Medical Dosimetrists,direct,,0.45,0
+29-2042,Emergency Medical Technicians,direct,,0.2083,0
+29-2043,Paramedics,direct,,0.1538,0
+29-2051,Dietetic Technicians,direct,,0.5435,0
+29-2052,Pharmacy Technicians,direct,,0.4265,0
+29-2053,Psychiatric Technicians,direct,,0.12,0
+29-2055,Surgical Technologists,direct,,0.0667,0
+29-2056,Veterinary Technologists and Technicians,direct,,0.1639,0
+29-2057,Ophthalmic Medical Technicians,direct,,0.3289,0
+29-2061,Licensed Practical and Licensed Vocational Nurses,direct,,0.25,0
+29-2072,Medical Records Specialists,direct,,0.6176,0
+29-2081,"Opticians, Dispensing",direct,,0.2857,0
+29-2091,Orthotists and Prosthetists,direct,,0.2759,0
+29-2092,Hearing Aid Specialists,direct,,0.2,0
+29-2099,"Health Technologists and Technicians, All Other",direct,,0.4114,1
+29-9021,Health Information Technologists and Medical Registrars,direct,,0.6562,0
+29-9091,Athletic Trainers,direct,,0.2791,0
+29-9092,Genetic Counselors,direct,,0.5,0
+29-9093,Surgical Assistants,direct,,0.0392,0
+29-9099,"Healthcare Practitioners and Technical Workers, All Other",direct,,0.3786,1
+31-1131,Nursing Assistants,direct,,0.1017,0
+31-1132,Orderlies,direct,,0.0,0
+31-1133,Psychiatric Aides,direct,,0.125,0
+31-2011,Occupational Therapy Assistants,direct,,0.2674,0
+31-2012,Occupational Therapy Aides,direct,,0.2407,0
+31-2021,Physical Therapist Assistants,direct,,0.1538,0
+31-2022,Physical Therapist Aides,direct,,0.1818,0
+31-9011,Massage Therapists,direct,,0.0741,0
+31-9091,Dental Assistants,direct,,0.2667,0
+31-9092,Medical Assistants,direct,,0.359,0
+31-9093,Medical Equipment Preparers,direct,,0.1111,0
+31-9094,Medical Transcriptionists,direct,,0.875,0
+31-9095,Pharmacy Aides,direct,,0.38,0
+31-9096,Veterinary Assistants and Laboratory Animal Caretakers,direct,,0.2222,0
+31-9097,Phlebotomists,direct,,0.1829,0
+31-9099,"Healthcare Support Workers, All Other",direct,,0.3651,1
+33-1011,First-Line Supervisors of Correctional Officers,direct,,0.2826,0
+33-1012,First-Line Supervisors of Police and Detectives,direct,,0.3289,0
+33-1021,First-Line Supervisors of Firefighting and Prevention Workers,direct,,0.4151,0
+33-1091,First-Line Supervisors of Security Workers,direct,,0.4048,0
+33-2011,Firefighters,direct,,0.1404,0
+33-2021,Fire Inspectors and Investigators,direct,,0.2885,0
+33-2022,Forest Fire Inspectors and Prevention Specialists,direct,,0.2188,0
+33-3011,Bailiffs,direct,,0.0357,0
+33-3012,Correctional Officers and Jailers,direct,,0.2614,0
+33-3021,Detectives and Criminal Investigators,direct,,0.3974,0
+33-3031,Fish and Game Wardens,direct,,0.2841,0
+33-3041,Parking Enforcement Workers,direct,,0.3205,0
+33-3051,Police and Sheriff's Patrol Officers,direct,,0.3512,0
+33-3052,Transit and Railroad Police,direct,,0.25,0
+33-9011,Animal Control Workers,direct,,0.35,0
+33-9021,Private Detectives and Investigators,direct,,0.3889,0
+33-9031,Gambling Surveillance Officers and Gambling Investigators,direct,,0.4375,0
+33-9032,Security Guards,direct,,0.1667,0
+33-9091,Crossing Guards and Flaggers,direct,,0.1053,0
+33-9092,"Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers",direct,,0.08,0
+33-9093,Transportation Security Screeners,direct,,0.26,0
+33-9094,School Bus Monitors,direct,,0.1667,0
+33-9099,"Protective Service Workers, All Other",direct,,0.378,1
+35-1011,Chefs and Head Cooks,direct,,0.2619,0
+35-1012,First-Line Supervisors of Food Preparation and Serving Workers,direct,,0.5111,0
+35-2011,"Cooks, Fast Food",direct,,0.0,0
+35-2012,"Cooks, Institution and Cafeteria",direct,,0.1207,0
+35-2013,"Cooks, Private Household",direct,,0.24,0
+35-2014,"Cooks, Restaurant",direct,,0.0946,0
+35-2015,"Cooks, Short Order",direct,,0.0,0
+35-2021,Food Preparation Workers,direct,,0.037,0
+35-3011,Bartenders,direct,,0.1944,0
+35-3023,Fast Food and Counter Workers,direct,,0.097,0
+35-3031,Waiters and Waitresses,direct,,0.1837,0
+35-3041,"Food Servers, Nonrestaurant",direct,,0.1296,0
+35-9011,Dining Room and Cafeteria Attendants and Bartender Helpers,direct,,0.0,0
+35-9021,Dishwashers,direct,,0.0,0
+35-9031,"Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop",direct,,0.2286,0
+37-1011,First-Line Supervisors of Housekeeping and Janitorial Workers,direct,,0.2653,0
+37-1012,"First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers",direct,,0.3545,0
+37-2011,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners",direct,,0.0,1
+37-2012,Maids and Housekeeping Cleaners,direct,,0.0,0
+37-2021,Pest Control Workers,direct,,0.25,0
+37-3011,Landscaping and Groundskeeping Workers,direct,,0.0244,0
+37-3012,"Pesticide Handlers, Sprayers, and Applicators, Vegetation",direct,,0.0556,0
+37-3013,Tree Trimmers and Pruners,direct,,0.061,0
+39-1013,First-Line Supervisors of Gambling Services Workers,direct,,0.4327,0
+39-1014,"First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services",direct,,0.3684,1
+39-1022,First-Line Supervisors of Personal Service Workers,direct,,0.4138,0
+39-2011,Animal Trainers,direct,,0.1034,0
+39-2021,Animal Caretakers,direct,,0.2727,0
+39-3011,Gambling Dealers,direct,,0.1351,0
+39-3012,Gambling and Sports Book Writers and Runners,direct,,0.2692,0
+39-3021,Motion Picture Projectionists,direct,,0.1818,0
+39-3031,"Ushers, Lobby Attendants, and Ticket Takers",direct,,0.1429,0
+39-3091,Amusement and Recreation Attendants,direct,,0.2115,0
+39-3092,Costume Attendants,direct,,0.2639,0
+39-3093,"Locker Room, Coatroom, and Dressing Room Attendants",direct,,0.0645,0
+39-4011,Embalmers,direct,,0.04,0
+39-4012,Crematory Operators,direct,,0.0417,0
+39-4021,Funeral Attendants,direct,,0.1778,0
+39-4031,"Morticians, Undertakers, and Funeral Arrangers",direct,,0.1628,0
+39-5011,Barbers,direct,,0.1618,0
+39-5012,"Hairdressers, Hairstylists, and Cosmetologists",direct,,0.0789,0
+39-5091,"Makeup Artists, Theatrical and Performance",direct,,0.3415,0
+39-5092,Manicurists and Pedicurists,direct,,0.0833,0
+39-5093,Shampooers,direct,,0.1429,0
+39-5094,Skincare Specialists,direct,,0.197,0
+39-6011,Baggage Porters and Bellhops,direct,,0.1481,0
+39-6012,Concierges,direct,,0.4667,0
+39-9011,Childcare Workers,direct,,0.1414,0
+39-9031,Exercise Trainers and Group Fitness Instructors,direct,,0.0147,0
+39-9032,Recreation Workers,direct,,0.2381,0
+39-9041,Residential Advisors,direct,,0.24,0
+41-1011,First-Line Supervisors of Retail Sales Workers,direct,,0.4865,0
+41-1012,First-Line Supervisors of Non-Retail Sales Workers,direct,,0.537,0
+41-2011,Cashiers,direct,,0.2093,0
+41-2012,Gambling Change Persons and Booth Cashiers,direct,,0.2619,0
+41-2021,Counter and Rental Clerks,direct,,0.5323,0
+41-2022,Parts Salespersons,direct,,0.3429,0
+41-2031,Retail Salespersons,direct,,0.3421,0
+41-3011,Advertising Sales Agents,direct,,0.5385,0
+41-3021,Insurance Sales Agents,direct,,0.5758,0
+41-3031,"Securities, Commodities, and Financial Services Sales Agents",direct,,0.6058,0
+41-3041,Travel Agents,direct,,0.5625,0
+41-3091,"Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",direct,,0.6333,1
+41-4011,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",direct,,0.4983,0
+41-4012,"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",direct,,0.6207,1
+41-9011,Demonstrators and Product Promoters,direct,,0.1282,0
+41-9012,Models,direct,,0.2333,0
+41-9021,Real Estate Brokers,direct,,0.5,0
+41-9022,Real Estate Sales Agents,direct,,0.4375,0
+41-9031,Sales Engineers,direct,,0.5114,0
+41-9041,Telemarketers,direct,,0.8056,0
+41-9091,"Door-to-Door Sales Workers, News and Street Vendors, and Related Workers",direct,,0.2609,0
+43-1011,First-Line Supervisors of Office and Administrative Support Workers,direct,,0.4896,0
+43-2011,"Switchboard Operators, Including Answering Service",direct,,0.629,0
+43-2021,Telephone Operators,direct,,0.8947,0
+43-3011,Bill and Account Collectors,direct,,0.6964,0
+43-3021,Billing and Posting Clerks,direct,,0.7738,0
+43-3031,"Bookkeeping, Accounting, and Auditing Clerks",direct,,0.8023,0
+43-3041,Gambling Cage Workers,direct,,0.4194,0
+43-3051,Payroll and Timekeeping Clerks,direct,,0.8378,0
+43-3061,Procurement Clerks,direct,,0.6143,0
+43-3071,Tellers,direct,,0.5417,0
+43-4011,Brokerage Clerks,direct,,0.7667,0
+43-4021,Correspondence Clerks,direct,,0.9643,0
+43-4031,"Court, Municipal, and License Clerks",direct,,0.7,0
+43-4041,"Credit Authorizers, Checkers, and Clerks",direct,,0.65,0
+43-4051,Customer Service Representatives,direct,,0.5682,0
+43-4061,"Eligibility Interviewers, Government Programs",direct,,0.68,0
+43-4071,File Clerks,direct,,0.7941,0
+43-4081,"Hotel, Motel, and Resort Desk Clerks",direct,,0.5,0
+43-4111,"Interviewers, Except Eligibility and Loan",direct,,0.6724,1
+43-4121,"Library Assistants, Clerical",direct,,0.5345,0
+43-4131,Loan Interviewers and Clerks,direct,,0.5938,0
+43-4141,New Accounts Clerks,direct,,0.56,0
+43-4151,Order Clerks,direct,,0.7143,0
+43-4161,"Human Resources Assistants, Except Payroll and Timekeeping",direct,,0.6207,1
+43-4171,Receptionists and Information Clerks,direct,,0.5333,0
+43-4181,Reservation and Transportation Ticket Agents and Travel Clerks,direct,,0.4571,0
+43-5011,Cargo and Freight Agents,direct,,0.5273,0
+43-5021,Couriers and Messengers,direct,,0.3103,0
+43-5031,Public Safety Telecommunicators,direct,,0.6562,0
+43-5032,"Dispatchers, Except Police, Fire, and Ambulance",direct,,0.6739,1
+43-5041,"Meter Readers, Utilities",direct,,0.4375,0
+43-5051,Postal Service Clerks,direct,,0.3148,0
+43-5052,Postal Service Mail Carriers,direct,,0.2308,0
+43-5053,"Postal Service Mail Sorters, Processors, and Processing Machine Operators",direct,,0.1,0
+43-5061,"Production, Planning, and Expediting Clerks",direct,,0.5962,0
+43-5071,"Shipping, Receiving, and Inventory Clerks",direct,,0.5,0
+43-5111,"Weighers, Measurers, Checkers, and Samplers, Recordkeeping",direct,,0.2931,0
+43-6011,Executive Secretaries and Executive Administrative Assistants,direct,,0.6486,0
+43-6012,Legal Secretaries and Administrative Assistants,direct,,0.6957,0
+43-6013,Medical Secretaries and Administrative Assistants,direct,,0.6667,0
+43-6014,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",direct,,0.6442,1
+43-9021,Data Entry Keyers,direct,,0.8929,0
+43-9022,Word Processors and Typists,direct,,0.7432,0
+43-9031,Desktop Publishers,direct,,0.6452,0
+43-9041,Insurance Claims and Policy Processing Clerks,direct,,0.8333,0
+43-9051,"Mail Clerks and Mail Machine Operators, Except Postal Service",direct,,0.2162,1
+43-9061,"Office Clerks, General",direct,,0.5758,0
+43-9071,"Office Machine Operators, Except Computer",direct,,0.3971,1
+43-9081,Proofreaders and Copy Markers,direct,,0.975,0
+43-9111,Statistical Assistants,direct,,0.8913,0
+45-1011,"First-Line Supervisors of Farming, Fishing, and Forestry Workers",direct,,0.2807,0
+45-2011,Agricultural Inspectors,direct,,0.2917,0
+45-2021,Animal Breeders,direct,,0.1667,0
+45-2041,"Graders and Sorters, Agricultural Products",direct,,0.1,0
+45-2091,Agricultural Equipment Operators,direct,,0.0,0
+45-2092,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",direct,,0.1429,0
+45-2093,"Farmworkers, Farm, Ranch, and Aquacultural Animals",direct,,0.0625,0
+45-4011,Forest and Conservation Workers,direct,,0.0435,0
+45-4021,Fallers,direct,,0.0312,0
+45-4022,Logging Equipment Operators,direct,,0.1875,0
+45-4023,Log Graders and Scalers,direct,,0.2105,0
+47-1011,First-Line Supervisors of Construction Trades and Extraction Workers,direct,,0.4167,0
+47-2011,Boilermakers,direct,,0.0303,0
+47-2021,Brickmasons and Blockmasons,direct,,0.0385,0
+47-2022,Stonemasons,direct,,0.0,0
+47-2031,Carpenters,direct,,0.1444,0
+47-2041,Carpet Installers,direct,,0.0625,0
+47-2042,"Floor Layers, Except Carpet, Wood, and Hard Tiles",direct,,0.0,1
+47-2043,Floor Sanders and Finishers,direct,,0.0714,0
+47-2044,Tile and Stone Setters,direct,,0.0875,0
+47-2051,Cement Masons and Concrete Finishers,direct,,0.0,0
+47-2053,Terrazzo Workers and Finishers,direct,,0.0,0
+47-2061,Construction Laborers,direct,,0.05,0
+47-2071,"Paving, Surfacing, and Tamping Equipment Operators",direct,,0.0,0
+47-2072,Pile Driver Operators,direct,,0.0,0
+47-2073,Operating Engineers and Other Construction Equipment Operators,direct,,0.0543,0
+47-2081,Drywall and Ceiling Tile Installers,direct,,0.0417,0
+47-2082,Tapers,direct,,0.0,0
+47-2111,Electricians,direct,,0.1463,0
+47-2121,Glaziers,direct,,0.0833,0
+47-2131,"Insulation Workers, Floor, Ceiling, and Wall",direct,,0.05,0
+47-2132,"Insulation Workers, Mechanical",direct,,0.0455,0
+47-2141,"Painters, Construction and Maintenance",direct,,0.0571,0
+47-2142,Paperhangers,direct,,0.027,0
+47-2151,Pipelayers,direct,,0.0357,0
+47-2152,"Plumbers, Pipefitters, and Steamfitters",direct,,0.0753,0
+47-2161,Plasterers and Stucco Masons,direct,,0.0769,0
+47-2171,Reinforcing Iron and Rebar Workers,direct,,0.0714,0
+47-2181,Roofers,direct,,0.04,0
+47-2211,Sheet Metal Workers,direct,,0.0658,0
+47-2221,Structural Iron and Steel Workers,direct,,0.0286,0
+47-2231,Solar Photovoltaic Installers,direct,,0.11,0
+47-3011,"Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters",direct,,0.0,0
+47-3012,Helpers--Carpenters,direct,,0.0,0
+47-3013,Helpers--Electricians,direct,,0.0244,0
+47-3014,"Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons",direct,,0.0,0
+47-3015,"Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters",direct,,0.0,0
+47-3016,Helpers--Roofers,direct,,0.0,0
+47-4011,Construction and Building Inspectors,direct,,0.3341,0
+47-4021,Elevator and Escalator Installers and Repairers,direct,,0.1842,0
+47-4031,Fence Erectors,direct,,0.0513,0
+47-4041,Hazardous Materials Removal Workers,direct,,0.0806,0
+47-4051,Highway Maintenance Workers,direct,,0.0161,0
+47-4061,Rail-Track Laying and Maintenance Equipment Operators,direct,,0.0,0
+47-4071,Septic Tank Servicers and Sewer Pipe Cleaners,direct,,0.0781,0
+47-5011,"Derrick Operators, Oil and Gas",direct,,0.0,0
+47-5012,"Rotary Drill Operators, Oil and Gas",direct,,0.0526,0
+47-5013,"Service Unit Operators, Oil and Gas",direct,,0.0645,0
+47-5022,"Excavating and Loading Machine and Dragline Operators, Surface Mining",direct,,0.0,0
+47-5023,"Earth Drillers, Except Oil and Gas",direct,,0.1364,1
+47-5032,"Explosives Workers, Ordnance Handling Experts, and Blasters",direct,,0.1354,0
+47-5041,Continuous Mining Machine Operators,direct,,0.0,0
+47-5043,"Roof Bolters, Mining",direct,,0.0,0
+47-5044,"Loading and Moving Machine Operators, Underground Mining",direct,,0.0233,0
+47-5051,"Rock Splitters, Quarry",direct,,0.0769,0
+47-5071,"Roustabouts, Oil and Gas",direct,,0.0,0
+47-5081,Helpers--Extraction Workers,direct,,0.0,0
+49-1011,"First-Line Supervisors of Mechanics, Installers, and Repairers",direct,,0.4103,0
+49-2011,"Computer, Automated Teller, and Office Machine Repairers",direct,,0.3673,0
+49-2021,"Radio, Cellular, and Tower Equipment Installers and Repairers",direct,,0.1071,0
+49-2022,"Telecommunications Equipment Installers and Repairers, Except Line Installers",direct,,0.2812,1
+49-2091,Avionics Technicians,direct,,0.24,0
+49-2092,"Electric Motor, Power Tool, and Related Repairers",direct,,0.1058,0
+49-2093,"Electrical and Electronics Installers and Repairers, Transportation Equipment",direct,,0.24,0
+49-2094,"Electrical and Electronics Repairers, Commercial and Industrial Equipment",direct,,0.3077,0
+49-2095,"Electrical and Electronics Repairers, Powerhouse, Substation, and Relay",direct,,0.34,0
+49-2096,"Electronic Equipment Installers and Repairers, Motor Vehicles",direct,,0.1667,0
+49-2097,Audiovisual Equipment Installers and Repairers,direct,,0.2381,0
+49-2098,Security and Fire Alarm Systems Installers,direct,,0.1667,0
+49-3011,Aircraft Mechanics and Service Technicians,direct,,0.1343,0
+49-3021,Automotive Body and Related Repairers,direct,,0.0426,0
+49-3022,Automotive Glass Installers and Repairers,direct,,0.0,0
+49-3023,Automotive Service Technicians and Mechanics,direct,,0.0818,0
+49-3031,Bus and Truck Mechanics and Diesel Engine Specialists,direct,,0.0,0
+49-3041,Farm Equipment Mechanics and Service Technicians,direct,,0.1154,0
+49-3042,"Mobile Heavy Equipment Mechanics, Except Engines",direct,,0.1,1
+49-3043,Rail Car Repairers,direct,,0.0968,0
+49-3051,Motorboat Mechanics and Service Technicians,direct,,0.0769,0
+49-3052,Motorcycle Mechanics,direct,,0.0,0
+49-3053,Outdoor Power Equipment and Other Small Engine Mechanics,direct,,0.1786,0
+49-3091,Bicycle Repairers,direct,,0.1034,0
+49-3092,Recreational Vehicle Service Technicians,direct,,0.0606,0
+49-3093,Tire Repairers and Changers,direct,,0.0,0
+49-9011,Mechanical Door Repairers,direct,,0.1364,0
+49-9012,"Control and Valve Installers and Repairers, Except Mechanical Door",direct,,0.131,1
+49-9021,"Heating, Air Conditioning, and Refrigeration Mechanics and Installers",direct,,0.1053,0
+49-9031,Home Appliance Repairers,direct,,0.1455,0
+49-9041,Industrial Machinery Mechanics,direct,,0.2742,0
+49-9043,"Maintenance Workers, Machinery",direct,,0.1429,0
+49-9044,Millwrights,direct,,0.0217,0
+49-9045,"Refractory Materials Repairers, Except Brickmasons",direct,,0.0,1
+49-9051,Electrical Power-Line Installers and Repairers,direct,,0.0,0
+49-9052,Telecommunications Line Installers and Repairers,direct,,0.0312,0
+49-9061,Camera and Photographic Equipment Repairers,direct,,0.24,0
+49-9062,Medical Equipment Repairers,direct,,0.303,0
+49-9063,Musical Instrument Repairers and Tuners,direct,,0.0196,0
+49-9064,Watch and Clock Repairers,direct,,0.2,0
+49-9071,"Maintenance and Repair Workers, General",direct,,0.1373,0
+49-9081,Wind Turbine Service Technicians,direct,,0.0435,0
+49-9091,"Coin, Vending, and Amusement Machine Servicers and Repairers",direct,,0.3214,0
+49-9092,Commercial Divers,direct,,0.0667,0
+49-9094,Locksmiths and Safe Repairers,direct,,0.08,0
+49-9095,Manufactured Building and Mobile Home Installers,direct,,0.0769,0
+49-9096,Riggers,direct,,0.0,0
+49-9097,Signal and Track Switch Repairers,direct,,0.0769,0
+49-9098,"Helpers--Installation, Maintenance, and Repair Workers",direct,,0.0333,0
+49-9099,"Installation, Maintenance, and Repair Workers, All Other",direct,,0.2097,1
+51-1011,First-Line Supervisors of Production and Operating Workers,direct,,0.4,0
+51-2011,"Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",direct,,0.025,0
+51-2021,"Coil Winders, Tapers, and Finishers",direct,,0.2222,0
+51-2031,Engine and Other Machine Assemblers,direct,,0.0952,0
+51-2041,Structural Metal Fabricators and Fitters,direct,,0.0227,0
+51-2051,Fiberglass Laminators and Fabricators,direct,,0.0208,0
+51-2061,Timing Device Assemblers and Adjusters,direct,,0.06,0
+51-3011,Bakers,direct,,0.2647,0
+51-3021,Butchers and Meat Cutters,direct,,0.1316,0
+51-3022,"Meat, Poultry, and Fish Cutters and Trimmers",direct,,0.0,0
+51-3023,Slaughterers and Meat Packers,direct,,0.0,0
+51-3091,"Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders",direct,,0.0667,0
+51-3092,Food Batchmakers,direct,,0.1154,0
+51-3093,Food Cooking Machine Operators and Tenders,direct,,0.129,0
+51-4021,"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",direct,,0.0208,0
+51-4022,"Forging Machine Setters, Operators, and Tenders, Metal and Plastic",direct,,0.0417,0
+51-4023,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",direct,,0.1765,0
+51-4031,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",direct,,0.01,0
+51-4032,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",direct,,0.0303,0
+51-4033,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",direct,,0.0645,0
+51-4034,"Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic",direct,,0.1613,0
+51-4035,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",direct,,0.2414,0
+51-4041,Machinists,direct,,0.2347,0
+51-4051,Metal-Refining Furnace Operators and Tenders,direct,,0.1042,0
+51-4052,"Pourers and Casters, Metal",direct,,0.0,0
+51-4061,"Model Makers, Metal and Plastic",direct,,0.1613,0
+51-4062,"Patternmakers, Metal and Plastic",direct,,0.1522,0
+51-4071,Foundry Mold and Coremakers,direct,,0.0,0
+51-4072,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",direct,,0.0814,0
+51-4081,"Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",direct,,0.1026,0
+51-4111,Tool and Die Makers,direct,,0.1875,0
+51-4121,"Welders, Cutters, Solderers, and Brazers",direct,,0.0882,0
+51-4122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",direct,,0.0682,0
+51-4191,"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",direct,,0.1765,0
+51-4192,"Layout Workers, Metal and Plastic",direct,,0.1304,0
+51-4193,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",direct,,0.1042,0
+51-4194,"Tool Grinders, Filers, and Sharpeners",direct,,0.0333,0
+51-5111,Prepress Technicians and Workers,direct,,0.4375,0
+51-5112,Printing Press Operators,direct,,0.2875,0
+51-5113,Print Binding and Finishing Workers,direct,,0.0897,0
+51-6011,Laundry and Dry-Cleaning Workers,direct,,0.05,0
+51-6021,"Pressers, Textile, Garment, and Related Materials",direct,,0.0104,0
+51-6031,Sewing Machine Operators,direct,,0.0814,0
+51-6041,Shoe and Leather Workers and Repairers,direct,,0.0588,0
+51-6042,Shoe Machine Operators and Tenders,direct,,0.087,0
+51-6051,"Sewers, Hand",direct,,0.0417,0
+51-6052,"Tailors, Dressmakers, and Custom Sewers",direct,,0.0909,0
+51-6061,Textile Bleaching and Dyeing Machine Operators and Tenders,direct,,0.1579,0
+51-6062,"Textile Cutting Machine Setters, Operators, and Tenders",direct,,0.1607,0
+51-6063,"Textile Knitting and Weaving Machine Setters, Operators, and Tenders",direct,,0.1562,0
+51-6064,"Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders",direct,,0.0857,0
+51-6091,"Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",direct,,0.069,0
+51-6092,Fabric and Apparel Patternmakers,direct,,0.4688,0
+51-6093,Upholsterers,direct,,0.1912,0
+51-7011,Cabinetmakers and Bench Carpenters,direct,,0.1176,0
+51-7021,Furniture Finishers,direct,,0.0286,0
+51-7031,"Model Makers, Wood",direct,,0.1538,0
+51-7032,"Patternmakers, Wood",direct,,0.2564,0
+51-7041,"Sawing Machine Setters, Operators, and Tenders, Wood",direct,,0.0588,0
+51-7042,"Woodworking Machine Setters, Operators, and Tenders, Except Sawing",direct,,0.0652,1
+51-8011,Nuclear Power Reactor Operators,direct,,0.3182,0
+51-8012,Power Distributors and Dispatchers,direct,,0.375,0
+51-8013,Power Plant Operators,direct,,0.1552,0
+51-8021,Stationary Engineers and Boiler Operators,direct,,0.1628,0
+51-8031,Water and Wastewater Treatment Plant and System Operators,direct,,0.125,0
+51-8091,Chemical Plant and System Operators,direct,,0.1515,0
+51-8092,Gas Plant Operators,direct,,0.0938,0
+51-8093,"Petroleum Pump System Operators, Refinery Operators, and Gaugers",direct,,0.1951,0
+51-8099,"Plant and System Operators, All Other",direct,,0.0946,1
+51-9011,Chemical Equipment Operators and Tenders,direct,,0.1522,0
+51-9012,"Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders",direct,,0.1429,0
+51-9021,"Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",direct,,0.1081,0
+51-9022,"Grinding and Polishing Workers, Hand",direct,,0.0357,0
+51-9023,"Mixing and Blending Machine Setters, Operators, and Tenders",direct,,0.1111,0
+51-9031,"Cutters and Trimmers, Hand",direct,,0.0,0
+51-9032,"Cutting and Slicing Machine Setters, Operators, and Tenders",direct,,0.0682,0
+51-9041,"Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",direct,,0.075,0
+51-9051,"Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders",direct,,0.16,0
+51-9061,"Inspectors, Testers, Sorters, Samplers, and Weighers",direct,,0.4167,0
+51-9071,Jewelers and Precious Stone and Metal Workers,direct,,0.2054,0
+51-9081,Dental Laboratory Technicians,direct,,0.0417,0
+51-9082,Medical Appliance Technicians,direct,,0.1379,0
+51-9083,Ophthalmic Laboratory Technicians,direct,,0.0938,0
+51-9111,Packaging and Filling Machine Operators and Tenders,direct,,0.0,0
+51-9123,"Painting, Coating, and Decorating Workers",direct,,0.0,0
+51-9124,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",direct,,0.0435,0
+51-9141,Semiconductor Processing Technicians,direct,,0.2344,0
+51-9151,Photographic Process Workers and Processing Machine Operators,direct,,0.38,0
+51-9161,Computer Numerically Controlled Tool Operators,direct,,0.25,0
+51-9162,Computer Numerically Controlled Tool Programmers,direct,,0.8036,0
+51-9191,Adhesive Bonding Machine Operators and Tenders,direct,,0.0645,0
+51-9192,"Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders",direct,,0.1053,0
+51-9193,Cooling and Freezing Equipment Operators and Tenders,direct,,0.08,0
+51-9194,Etchers and Engravers,direct,,0.1364,0
+51-9195,"Molders, Shapers, and Casters, Except Metal and Plastic",direct,,0.071,1
+51-9196,"Paper Goods Machine Setters, Operators, and Tenders",direct,,0.0,0
+51-9197,Tire Builders,direct,,0.0192,0
+51-9198,Helpers--Production Workers,direct,,0.0889,0
+53-1041,Aircraft Cargo Handling Supervisors,direct,,0.3,0
+53-2011,"Airline Pilots, Copilots, and Flight Engineers",direct,,0.3523,0
+53-2012,Commercial Pilots,direct,,0.2386,0
+53-2021,Air Traffic Controllers,direct,,0.3409,0
+53-2022,Airfield Operations Specialists,direct,,0.3659,0
+53-2031,Flight Attendants,direct,,0.1667,0
+53-3011,"Ambulance Drivers and Attendants, Except Emergency Medical Technicians",direct,,0.0909,1
+53-3031,Driver/Sales Workers,direct,,0.3333,0
+53-3032,Heavy and Tractor-Trailer Truck Drivers,direct,,0.2788,0
+53-3033,Light Truck Drivers,direct,,0.3654,0
+53-3051,"Bus Drivers, School",direct,,0.3235,0
+53-3052,"Bus Drivers, Transit and Intercity",direct,,0.2407,0
+53-3053,Shuttle Drivers and Chauffeurs,direct,,0.25,0
+53-3054,Taxi Drivers,direct,,0.2812,0
+53-4011,Locomotive Engineers,direct,,0.2857,0
+53-4013,"Rail Yard Engineers, Dinkey Operators, and Hostlers",direct,,0.2045,0
+53-4022,"Railroad Brake, Signal, and Switch Operators and Locomotive Firers",direct,,0.1667,0
+53-4031,Railroad Conductors and Yardmasters,direct,,0.2778,0
+53-4041,Subway and Streetcar Operators,direct,,0.4091,0
+53-5011,Sailors and Marine Oilers,direct,,0.0426,0
+53-5021,"Captains, Mates, and Pilots of Water Vessels",direct,,0.2636,0
+53-5022,Motorboat Operators,direct,,0.0,0
+53-5031,Ship Engineers,direct,,0.1719,0
+53-6011,Bridge and Lock Tenders,direct,,0.2857,0
+53-6021,Parking Attendants,direct,,0.1071,0
+53-6031,Automotive and Watercraft Service Attendants,direct,,0.1304,0
+53-6032,Aircraft Service Attendants,direct,,0.1389,0
+53-6041,Traffic Technicians,direct,,0.463,0
+53-6051,Transportation Inspectors,direct,,0.4126,0
+53-6061,Passenger Attendants,direct,,0.2222,0
+53-7011,Conveyor Operators and Tenders,direct,,0.1034,0
+53-7021,Crane and Tower Operators,direct,,0.1842,0
+53-7031,Dredge Operators,direct,,0.0,0
+53-7041,Hoist and Winch Operators,direct,,0.0,0
+53-7051,Industrial Truck and Tractor Operators,direct,,0.0312,0
+53-7061,Cleaners of Vehicles and Equipment,direct,,0.0833,0
+53-7062,"Laborers and Freight, Stock, and Material Movers, Hand",direct,,0.0417,0
+53-7063,Machine Feeders and Offbearers,direct,,0.0909,0
+53-7064,"Packers and Packagers, Hand",direct,,0.1,0
+53-7065,Stockers and Order Fillers,direct,,0.1818,0
+53-7071,Gas Compressor and Gas Pumping Station Operators,direct,,0.2692,0
+53-7072,"Pump Operators, Except Wellhead Pumpers",direct,,0.25,1
+53-7073,Wellhead Pumpers,direct,,0.0,0
+53-7081,Refuse and Recyclable Material Collectors,direct,,0.1964,0
+53-7121,"Tank Car, Truck, and Ship Loaders",direct,,0.0714,0
+11-2030,Public Relations and Fundraising Managers,sibling_imputed,"['11-2011', '11-2021', '11-2022', '11-2032', '11-2033']",0.5078,0
+11-3010,Administrative Services and Facilities Managers,sibling_imputed,"['11-3012', '11-3013', '11-3021', '11-3031', '11-3051', '11-3061', '11-3071']",0.4693,0
+11-9039,"Education Administrators, All Other",sibling_imputed,"['11-9013', '11-9021', '11-9031', '11-9032', '11-9033', '11-9041', '11-9051', '11-9071', '11-9072', '11-9081']",0.438,1
+11-9198,"Personal Service Managers, All Other; Entertainment and Recreation Managers, Except Gambling; and Managers, All Other",sibling_imputed,"['11-9111', '11-9121', '11-9131', '11-9141', '11-9151', '11-9161', '11-9171', '11-9179', '11-9199']",0.457,1
+13-1020,Buyers and Purchasing Agents,sibling_imputed,"['13-1011', '13-1021', '13-1022', '13-1023', '13-1031', '13-1032', '13-1041', '13-1051', '13-1071', '13-1074', '13-1075', '13-1081', '13-1082']",0.4977,0
+13-1198,"Project Management Specialists and Business Operations Specialists, All Other",sibling_imputed,"['13-1111', '13-1121', '13-1131', '13-1141', '13-1151', '13-1161', '13-1199']",0.5063,1
+13-2020,Property Appraisers and Assessors,sibling_imputed,"['13-2011', '13-2022', '13-2023', '13-2031', '13-2041', '13-2051', '13-2052', '13-2053', '13-2054', '13-2061', '13-2071', '13-2072', '13-2081', '13-2082', '13-2099']",0.5513,0
+13-2098,"Financial and Investment Analysts, Financial Risk Specialists, and Financial Specialists, All Other",sibling_imputed,"['13-2011', '13-2022', '13-2023', '13-2031', '13-2041', '13-2051', '13-2052', '13-2053', '13-2054', '13-2061', '13-2071', '13-2072', '13-2081', '13-2082', '13-2099']",0.5513,1
+15-1245,Database Administrators and Architects,sibling_imputed,"['15-1211', '15-1212', '15-1221', '15-1231', '15-1232', '15-1241', '15-1242', '15-1243', '15-1244', '15-1251', '15-1252', '15-1253', '15-1254', '15-1255', '15-1299']",0.765,0
+15-1256,Software Developers and Software Quality Assurance Analysts and Testers,sibling_imputed,"['15-1211', '15-1212', '15-1221', '15-1231', '15-1232', '15-1241', '15-1242', '15-1243', '15-1244', '15-1251', '15-1252', '15-1253', '15-1254', '15-1255', '15-1299']",0.765,0
+15-1257,Web Developers and Digital Interface Designers,sibling_imputed,"['15-1211', '15-1212', '15-1221', '15-1231', '15-1232', '15-1241', '15-1242', '15-1243', '15-1244', '15-1251', '15-1252', '15-1253', '15-1254', '15-1255', '15-1299']",0.765,0
+15-2098,"Data Scientists and Mathematical Science Occupations, All Other",sibling_imputed,"['15-2011', '15-2021', '15-2031', '15-2041', '15-2051', '15-2099']",0.7359,1
+17-3019,"Drafters, All Other",sibling_imputed,"['17-3011', '17-3012', '17-3013', '17-3021', '17-3022', '17-3023', '17-3024', '17-3025', '17-3026', '17-3027', '17-3028', '17-3029', '17-3031']",0.4383,1
+17-3098,"Calibration Technologists and Technicians and Engineering Technologists and Technicians, Except Drafters, All Other",sibling_imputed,"['17-3011', '17-3012', '17-3013', '17-3021', '17-3022', '17-3023', '17-3024', '17-3025', '17-3026', '17-3027', '17-3028', '17-3029', '17-3031']",0.4383,1
+19-1099,"Life Scientists, All Other",sibling_imputed,"['19-1011', '19-1012', '19-1013', '19-1021', '19-1022', '19-1023', '19-1029', '19-1031', '19-1032', '19-1041', '19-1042']",0.4537,1
+19-3031,"Clinical, Counseling, and School Psychologists",sibling_imputed,"['19-3011', '19-3022', '19-3032', '19-3033', '19-3034', '19-3039', '19-3041', '19-3051', '19-3091', '19-3092', '19-3093', '19-3094', '19-3099']",0.4857,0
+19-4010,Agricultural and Food Science Technicians,sibling_imputed,"['19-4012', '19-4013', '19-4021', '19-4031', '19-4042', '19-4043', '19-4044', '19-4051', '19-4061', '19-4071', '19-4092', '19-4099']",0.4186,0
+19-4045,Geological and Hydrologic Technicians,sibling_imputed,"['19-4012', '19-4013', '19-4021', '19-4031', '19-4042', '19-4043', '19-4044', '19-4051', '19-4061', '19-4071', '19-4092', '19-4099']",0.4186,0
+21-1018,"Substance Abuse, Behavioral Disorder, and Mental Health Counselors",sibling_imputed,"['21-1011', '21-1012', '21-1013', '21-1014', '21-1015', '21-1021', '21-1022', '21-1023', '21-1091', '21-1092', '21-1093', '21-1094']",0.3089,0
+21-1019,"Counselors, All Other",sibling_imputed,"['21-1011', '21-1012', '21-1013', '21-1014', '21-1015', '21-1021', '21-1022', '21-1023', '21-1091', '21-1092', '21-1093', '21-1094']",0.3089,1
+21-1029,"Social Workers, All Other",sibling_imputed,"['21-1011', '21-1012', '21-1013', '21-1014', '21-1015', '21-1021', '21-1022', '21-1023', '21-1091', '21-1092', '21-1093', '21-1094']",0.3089,1
+21-1099,"Community and Social Service Specialists, All Other",sibling_imputed,"['21-1011', '21-1012', '21-1013', '21-1014', '21-1015', '21-1021', '21-1022', '21-1023', '21-1091', '21-1092', '21-1093', '21-1094']",0.3089,1
+21-2099,"Religious Workers, All Other",sibling_imputed,"['21-2011', '21-2021']",0.3864,1
+23-2099,"Legal Support Workers, All Other",sibling_imputed,"['23-2011', '23-2093']",0.5482,1
+25-1069,"Social Sciences Teachers, Postsecondary, All Other",sibling_imputed,"['25-1011', '25-1021', '25-1022', '25-1031', '25-1032', '25-1041', '25-1042', '25-1043', '25-1051', '25-1052', '25-1053', '25-1054', '25-1061', '25-1062', '25-1063', '25-1064', '25-1065', '25-1066', '25-1067', '25-1071', '25-1072', '25-1081', '25-1082']",0.4809,1
+25-1199,"Postsecondary Teachers, All Other",sibling_imputed,"['25-1111', '25-1112', '25-1113', '25-1121', '25-1122', '25-1123', '25-1124', '25-1125', '25-1126', '25-1192', '25-1193', '25-1194']",0.4915,1
+25-2052,"Special Education Teachers, Kindergarten and Elementary School",sibling_imputed,"['25-2011', '25-2012', '25-2021', '25-2022', '25-2023', '25-2031', '25-2032', '25-2051', '25-2055', '25-2056', '25-2057', '25-2058', '25-2059']",0.3043,0
+25-3097,"Tutors and Teachers and Instructors, All Other",sibling_imputed,"['25-3011', '25-3021', '25-3031', '25-3041']",0.4171,1
+25-3099,"Teachers and Instructors, All Other",sibling_imputed,"['25-3011', '25-3021', '25-3031', '25-3041']",0.4171,1
+25-9045,"Teaching Assistants, Except Postsecondary",sibling_imputed,"['25-9021', '25-9031', '25-9042', '25-9043', '25-9044']",0.4043,1
+25-9099,"Educational Instruction and Library Workers, All Other",sibling_imputed,"['25-9021', '25-9031', '25-9042', '25-9043', '25-9044']",0.4043,1
+27-1019,"Artists and Related Workers, All Other",sibling_imputed,"['27-1011', '27-1012', '27-1013', '27-1014', '27-1021', '27-1022', '27-1023', '27-1024', '27-1025', '27-1026', '27-1027']",0.4055,1
+27-1029,"Designers, All Other",sibling_imputed,"['27-1011', '27-1012', '27-1013', '27-1014', '27-1021', '27-1022', '27-1023', '27-1024', '27-1025', '27-1026', '27-1027']",0.4055,1
+27-2090,"Miscellaneous Entertainers and Performers, Sports and Related Workers",sibling_imputed,"['27-2011', '27-2012', '27-2021', '27-2022', '27-2023', '27-2031', '27-2032', '27-2041', '27-2042', '27-2091']",0.3207,1
+27-2099,"Entertainers and Performers, Sports and Related Workers, All Other",sibling_imputed,"['27-2011', '27-2012', '27-2021', '27-2022', '27-2023', '27-2031', '27-2032', '27-2041', '27-2042', '27-2091']",0.3207,1
+27-3099,"Media and Communication Workers, All Other",sibling_imputed,"['27-3011', '27-3023', '27-3031', '27-3041', '27-3042', '27-3043', '27-3091', '27-3092']",0.7442,1
+27-4098,"Lighting Technicians and Media and Communication Equipment Workers, All Other",sibling_imputed,"['27-4011', '27-4012', '27-4014', '27-4015', '27-4021', '27-4031', '27-4032']",0.4116,1
+27-4099,"Media and Communication Equipment Workers, All Other",sibling_imputed,"['27-4011', '27-4012', '27-4014', '27-4015', '27-4021', '27-4031', '27-4032']",0.4116,1
+29-1029,"Dentists, All Other Specialists",sibling_imputed,"['29-1011', '29-1021', '29-1022', '29-1023', '29-1024', '29-1031', '29-1041', '29-1051', '29-1071', '29-1081']",0.2924,1
+29-1228,"Physicians, All Other; and Ophthalmologists, Except Pediatric",sibling_imputed,"['29-1211', '29-1212', '29-1213', '29-1214', '29-1215', '29-1216', '29-1217', '29-1218', '29-1221', '29-1222', '29-1223', '29-1224', '29-1229', '29-1241', '29-1242', '29-1243', '29-1291', '29-1292', '29-1299']",0.3933,1
+29-1248,"Surgeons, Except Ophthalmologists",sibling_imputed,"['29-1211', '29-1212', '29-1213', '29-1214', '29-1215', '29-1216', '29-1217', '29-1218', '29-1221', '29-1222', '29-1223', '29-1224', '29-1229', '29-1241', '29-1242', '29-1243', '29-1291', '29-1292', '29-1299']",0.3933,1
+29-1249,"Surgeons, All Other",sibling_imputed,"['29-1211', '29-1212', '29-1213', '29-1214', '29-1215', '29-1216', '29-1217', '29-1218', '29-1221', '29-1222', '29-1223', '29-1224', '29-1229', '29-1241', '29-1242', '29-1243', '29-1291', '29-1292', '29-1299']",0.3933,1
+29-1298,"Acupuncturists and Healthcare Diagnosing or Treating Practitioners, All Other",sibling_imputed,"['29-1211', '29-1212', '29-1213', '29-1214', '29-1215', '29-1216', '29-1217', '29-1218', '29-1221', '29-1222', '29-1223', '29-1224', '29-1229', '29-1241', '29-1242', '29-1243', '29-1291', '29-1292', '29-1299']",0.3933,1
+29-2010,Clinical Laboratory Technologists and Technicians,sibling_imputed,"['29-2011', '29-2012', '29-2031', '29-2032', '29-2033', '29-2034', '29-2035', '29-2036', '29-2042', '29-2043', '29-2051', '29-2052', '29-2053', '29-2055', '29-2056', '29-2057', '29-2061', '29-2072', '29-2081', '29-2091', '29-2092', '29-2099']",0.3027,0
+29-2040,Emergency Medical Technicians and Paramedics,sibling_imputed,"['29-2011', '29-2012', '29-2031', '29-2032', '29-2033', '29-2034', '29-2035', '29-2036', '29-2042', '29-2043', '29-2051', '29-2052', '29-2053', '29-2055', '29-2056', '29-2057', '29-2061', '29-2072', '29-2081', '29-2091', '29-2092', '29-2099']",0.3027,0
+29-2098,"Medical Dosimetrists, Medical Records Specialists, and Health Technologists and Technicians, All Other",sibling_imputed,"['29-2011', '29-2012', '29-2031', '29-2032', '29-2033', '29-2034', '29-2035', '29-2036', '29-2042', '29-2043', '29-2051', '29-2052', '29-2053', '29-2055', '29-2056', '29-2057', '29-2061', '29-2072', '29-2081', '29-2091', '29-2092', '29-2099']",0.3027,1
+29-9098,"Health Information Technologists, Medical Registrars, Surgical Assistants, and Healthcare Practitioners and Technical Workers, All Other",sibling_imputed,"['29-9021', '29-9091', '29-9092', '29-9093', '29-9099']",0.3706,1
+31-1120,Home Health and Personal Care Aides,sibling_imputed,"['31-1121', '31-1122', '31-1131', '31-1132', '31-1133']",0.1052,0
+33-1090,"Miscellaneous First-Line Supervisors, Protective Service Workers",sibling_imputed,"['33-1011', '33-1012', '33-1021', '33-1091']",0.3579,1
+33-1099,"First-Line Supervisors of Protective Service Workers, All Other",sibling_imputed,"['33-1011', '33-1012', '33-1021', '33-1091']",0.3579,1
+33-9098,"School Bus Monitors and Protective Service Workers, All Other",sibling_imputed,"['33-9011', '33-9021', '33-9031', '33-9032', '33-9091', '33-9092', '33-9093', '33-9094', '33-9099']",0.2592,1
+35-2019,"Cooks, All Other",sibling_imputed,"['35-2011', '35-2012', '35-2013', '35-2014', '35-2015', '35-2021']",0.0821,1
+35-9099,"Food Preparation and Serving Related Workers, All Other",sibling_imputed,"['35-9011', '35-9021', '35-9031']",0.0762,1
+37-2019,"Building Cleaning Workers, All Other",sibling_imputed,"['37-2011', '37-2012', '37-2021']",0.0833,1
+37-3019,"Grounds Maintenance Workers, All Other",sibling_imputed,"['37-3011', '37-3012', '37-3013']",0.047,1
+39-1098,"First-Line Supervisors of Personal Service and Entertainment and Recreation Workers, Except Gambling Services",sibling_imputed,"['39-1013', '39-1014', '39-1022']",0.405,1
+39-3019,"Gambling Service Workers, All Other",sibling_imputed,"['39-3011', '39-3012', '39-3021', '39-3031', '39-3091', '39-3092', '39-3093']",0.1813,1
+39-3099,"Entertainment Attendants and Related Workers, All Other",sibling_imputed,"['39-3011', '39-3012', '39-3021', '39-3031', '39-3091', '39-3092', '39-3093']",0.1813,1
+39-7010,Tour and Travel Guides,sibling_imputed,"['39-7011', '39-7012']",0.3246,0
+39-9098,"Crematory Operators and Personal Care and Service Workers, All Other",sibling_imputed,"['39-9011', '39-9031', '39-9032', '39-9041']",0.1586,1
+39-9099,"Personal Care and Service Workers, All Other",sibling_imputed,"['39-9011', '39-9031', '39-9032', '39-9041']",0.1586,1
+41-9099,"Sales and Related Workers, All Other",sibling_imputed,"['41-9011', '41-9012', '41-9021', '41-9022', '41-9031', '41-9041', '41-9091']",0.411,1
+43-2099,"Communications Equipment Operators, All Other",sibling_imputed,"['43-2011', '43-2021']",0.7619,1
+43-3099,"Financial Clerks, All Other",sibling_imputed,"['43-3011', '43-3021', '43-3031', '43-3041', '43-3051', '43-3061', '43-3071']",0.6694,1
+43-4199,"Information and Record Clerks, All Other",sibling_imputed,"['43-4111', '43-4121', '43-4131', '43-4141', '43-4151', '43-4161', '43-4171', '43-4181']",0.5858,1
+43-9199,"Office and Administrative Support Workers, All Other",sibling_imputed,['43-9111'],0.8913,1
+45-2099,"Agricultural Workers, All Other",sibling_imputed,"['45-2011', '45-2021', '45-2041', '45-2091', '45-2092', '45-2093']",0.1273,1
+45-4029,"Logging Workers, All Other",sibling_imputed,"['45-4011', '45-4021', '45-4022', '45-4023']",0.1182,1
+47-3019,"Helpers, Construction Trades, All Other",sibling_imputed,"['47-3011', '47-3012', '47-3013', '47-3014', '47-3015', '47-3016']",0.0041,1
+47-4090,Miscellaneous Construction and Related Workers,sibling_imputed,"['47-4011', '47-4021', '47-4031', '47-4041', '47-4051', '47-4061', '47-4071', '47-4091', '47-4099']",0.1096,1
+47-5049,"Underground Mining Machine Operators, All Other",sibling_imputed,"['47-5011', '47-5012', '47-5013', '47-5022', '47-5023', '47-5032', '47-5041', '47-5043', '47-5044', '47-5051', '47-5071', '47-5081']",0.0408,1
+47-5097,"Earth Drillers, Except Oil and Gas; and Explosives Workers, Ordnance Handling Experts, and Blasters",sibling_imputed,"['47-5011', '47-5012', '47-5013', '47-5022', '47-5023', '47-5032', '47-5041', '47-5043', '47-5044', '47-5051', '47-5071', '47-5081']",0.0408,1
+47-5098,"Underground Mining Machine Operators and Extraction Workers, All Other",sibling_imputed,"['47-5011', '47-5012', '47-5013', '47-5022', '47-5023', '47-5032', '47-5041', '47-5043', '47-5044', '47-5051', '47-5071', '47-5081']",0.0408,1
+47-5099,"Extraction Workers, All Other",sibling_imputed,"['47-5011', '47-5012', '47-5013', '47-5022', '47-5023', '47-5032', '47-5041', '47-5043', '47-5044', '47-5051', '47-5071', '47-5081']",0.0408,1
+49-9069,"Precision Instrument and Equipment Repairers, All Other",sibling_imputed,"['49-9011', '49-9012', '49-9021', '49-9031', '49-9041', '49-9043', '49-9044', '49-9045', '49-9051', '49-9052', '49-9061', '49-9062', '49-9063', '49-9064', '49-9071', '49-9081', '49-9091', '49-9092', '49-9094', '49-9095', '49-9096', '49-9097', '49-9098', '49-9099']",0.1165,1
+51-2028,"Electrical, Electronic, and Electromechanical Assemblers, Except Coil Winders, Tapers, and Finishers",sibling_imputed,"['51-2011', '51-2021', '51-2022', '51-2023', '51-2031', '51-2041', '51-2051', '51-2061', '51-2092']",0.0914,1
+51-2090,Miscellaneous Assemblers and Fabricators,sibling_imputed,"['51-2011', '51-2021', '51-2022', '51-2023', '51-2031', '51-2041', '51-2051', '51-2061', '51-2092']",0.0914,1
+51-3099,"Food Processing Workers, All Other",sibling_imputed,"['51-3011', '51-3021', '51-3022', '51-3023', '51-3091', '51-3092', '51-3093']",0.1011,1
+51-4199,"Metal Workers and Plastic Workers, All Other",sibling_imputed,"['51-4111', '51-4121', '51-4122', '51-4191', '51-4192', '51-4193', '51-4194']",0.1126,1
+51-6099,"Textile, Apparel, and Furnishings Workers, All Other",sibling_imputed,"['51-6011', '51-6021', '51-6031', '51-6041', '51-6042', '51-6051', '51-6052', '51-6061', '51-6062', '51-6063', '51-6064', '51-6091', '51-6092', '51-6093']",0.1221,1
+51-7099,"Woodworkers, All Other",sibling_imputed,"['51-7011', '51-7021', '51-7031', '51-7032', '51-7041', '51-7042']",0.1134,1
+51-9199,"Production Workers, All Other",sibling_imputed,"['51-9111', '51-9123', '51-9124', '51-9141', '51-9151', '51-9161', '51-9162', '51-9191', '51-9192', '51-9193', '51-9194', '51-9195', '51-9196', '51-9197', '51-9198']",0.1518,1
+53-1047,"First-Line Supervisors of Transportation and Material Moving Workers, Except Aircraft Cargo Handling Supervisors",sibling_imputed,"['53-1041', '53-1042', '53-1043', '53-1044']",0.3155,1
+53-3058,"Passenger Vehicle Drivers, Except Bus Drivers, Transit and Intercity",sibling_imputed,"['53-3011', '53-3031', '53-3032', '53-3033', '53-3051', '53-3052', '53-3053', '53-3054']",0.2705,1
+53-3099,"Motor Vehicle Operators, All Other",sibling_imputed,"['53-3011', '53-3031', '53-3032', '53-3033', '53-3051', '53-3052', '53-3053', '53-3054']",0.2705,1
+53-4099,"Rail Transportation Workers, All Other",sibling_imputed,"['53-4011', '53-4013', '53-4022', '53-4031', '53-4041']",0.2688,1
+53-6098,"Aircraft Service Attendants and Transportation Workers, All Other",sibling_imputed,"['53-6011', '53-6021', '53-6031', '53-6032', '53-6041', '53-6051', '53-6061']",0.2514,1
+53-6099,"Transportation Workers, All Other",sibling_imputed,"['53-6011', '53-6021', '53-6031', '53-6032', '53-6041', '53-6051', '53-6061']",0.2514,1
+53-7199,"Material Moving Workers, All Other",sibling_imputed,['53-7121'],0.0714,1
