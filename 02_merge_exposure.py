@@ -18,7 +18,7 @@ INPUTS
   data/processed/oews_national_panel.csv   ← from 01_process_oews.py
   data/raw/eloundou/occ_level.csv          ← from Eloundou et al. GitHub
 
-ELOUNDOU EXPOSURE SCORES — WHAT THEY MEAN
+ELOUNDOU EXPOSURE SCORES
 ------------------------------------------
 The file has 6 exposure measures per O*NET occupation, representing the
 fraction of tasks in that occupation that LLMs can perform, under three
@@ -79,7 +79,7 @@ Three categories:
 
 OUTPUTS
 -------
-  data/processed/oews_exposure_merged.csv    ← main output (use this forward)
+  data/processed/oews_exposure_merged.csv    ← main output
   data/processed/merge_diagnostics.csv       ← per-code match status report
 
 MERGED PANEL STRUCTURE

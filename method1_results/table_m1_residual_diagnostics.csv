@@ -1,0 +1,4 @@
+outcome,mean,std,skewness,kurtosis
+log_wage,0.0,0.0429,1.1082,52.985
+log_emp,-0.0,0.1174,-0.1255,5.4213
+log_wbill,0.0,0.1241,-0.059,5.9533

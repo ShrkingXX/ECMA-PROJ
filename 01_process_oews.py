@@ -2,64 +2,13 @@
 ================================================================================
 DATASET 1: BLS Occupational Employment and Wage Statistics (OEWS)
 ================================================================================
-Project : LLMs and Labor Market Outcomes
-Course  : Econometrics & ML — Spring 2025, University of Chicago
-Person  : B (data lead)
-
 PURPOSE
 -------
 Reads raw OEWS national Excel files (2019–2025), filters to national ×
 detailed × cross-industry rows, handles BLS suppression flags, applies a
 SOC vintage crosswalk for 2019, constructs three log outcomes, and outputs
 a clean long-format panel ready to merge with Eloundou et al. exposure scores.
-
-HOW TO USE
-----------
-1. Download OEWS "All data" Excel files manually (BLS blocks automated downloads):
-
-   Year  URL
-   ----  ---
-   2019  https://www.bls.gov/oes/special.requests/oesm19nat.zip
-   2020  https://www.bls.gov/oes/special.requests/oesm20nat.zip
-   2021  https://www.bls.gov/oes/special.requests/oesm21nat.zip
-   2022  https://www.bls.gov/oes/special.requests/oesm22nat.zip
-   2023  https://www.bls.gov/oes/special.requests/oesm23nat.zip
-   2024  https://www.bls.gov/oes/special.requests/oesm24nat.zip
-   2025  https://www.bls.gov/oes/special.requests/oesm25nat.zip
-
-   Each zip contains one file named all_data_M_{YEAR}.xlsx.
-   Extract it and place in:  data/raw/oews/
-
-3. Run:  python 01_process_oews.py
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-⚠ IMPORTANT — SOC VINTAGE SHIFT (confirmed against actual 2019 file)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-OEWS used SOC 2010 occupational codes through the May 2019 survey.
-Starting with May 2020, BLS switched to SOC 2018 codes — the standard
-used in Eloundou et al. (2023) and in years 2020–2024.
-
-Three of our focal occupations changed codes AND definitions between
-2019 and 2020:
-
-  Occupation              2019 code / title               2020+ code
-  ─────────────────────── ─────────────────────────────── ──────────
-  Software Developers     15-1256 (bundled with QA)       15-1252
-  Data Scientists         15-2098 (bundled "all other")   15-2051
-  Financial Analysts      13-2098 (bundled "all other")   13-2051
-
-The script applies a crosswalk to re-code these three 2019 rows to their
-SOC 2018 equivalents so occ_code is consistent across all years.
-
-CAVEAT: The 2019 bundled categories are broader than the 2020+ detailed
-ones, so wages/employment in 2019 for these three occupations are slightly
-noisy (they include adjacent roles). This is noted in oews_crosswalk_log.csv
-and should be mentioned as a limitation in your Data section.
-
-The remaining 786 occupations have stable SOC codes across 2019–2024
-and require no crosswalk.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 FILTERS APPLIED (confirmed against actual 2019 file)
 ------------------------------------------------------
   area     = '99'             → U.S. national (not state / metro)
@@ -493,25 +442,6 @@ def main() -> None:
     if not crosswalk_log.empty:
         log.info(f"  {out_crosswalk}   ({len(crosswalk_log):,} remapped codes)")
 
-    log.info("""
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Column guide for Person C (estimation scripts)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  occ_code         SOC 2018 code  ← MERGE KEY for script 02 (Eloundou)
-  year             OEWS survey reference year
-  log_wage         ln(a_mean)     ← OUTCOME 1
-  log_emp          ln(tot_emp)    ← OUTCOME 2
-  log_wbill        ln(wage_bill)  ← OUTCOME 3  (composition-bias check)
-  post             1 = year > 2022
-  event_time       τ = year − 2022  (event-study dummies for Method 4)
-  balanced         1 = present in ALL years (restrict for Methods 3 & 4)
-  suppressed_wage  1 = a_mean withheld by BLS (exclude from regressions)
-  soc_remapped     1 = 2019 SOC code reassigned to SOC 2018 equivalent
-                       (flag as limitation in the Data section)
-
-Next step → run 02_process_eloundou.py to merge LLM exposure scores.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-    """)
 
 
 if __name__ == "__main__":

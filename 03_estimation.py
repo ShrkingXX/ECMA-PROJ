@@ -2,9 +2,6 @@
 ================================================================================
 ESTIMATION: All 4 Methods — LLMs and Labor Market Outcomes
 ================================================================================
-Project : LLMs and Labor Market Outcomes
-Course  : Econometrics & ML — Spring 2025, University of Chicago
-Person  : C (Methods 1–2)  |  Person D (Methods 3–4)
 
 INPUT
 -----

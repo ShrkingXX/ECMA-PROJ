@@ -1,0 +1,261 @@
+=== TASK 1: Load and Inspect the Data ===
+Shape after loading: (5731, 26)
+Columns: ['year', 'event_time', 'post', 'occ_code', 'occ_title', 'tot_emp', 'a_mean', 'h_mean', 'wage_bill', 'log_wage', 'log_emp', 'log_wbill', 'annual_only', 'suppressed_wage', 'soc_remapped', 'balanced', 'dv_alpha', 'dv_beta', 'dv_gamma', 'human_alpha', 'human_beta', 'human_gamma', 'n_onet', 'prefix5', 'exposure_imputed', 'exposure_residual']
+
+After balanced==1: 5299 rows, 757 unique occupations
+After suppressed_wage==False: 5277 rows, 754 unique occupations
+After exposure_residual==0: 4976 rows, 711 unique occupations
+After dv_beta.notna(): 4976 rows, 711 unique occupations
+After log_wage.notna(): 4976 rows, 711 unique occupations
+WARNING: Expected ~4271 observations but got 4976. Check data pipeline.
+
+All required columns present.
+
+--- Structural Verification ---
+WARNING: Expected years [2019, 2020, 2021, 2022, 2023, 2024], got [2019, 2020, 2021, 2022, 2023, 2024, 2025]
+PASS: dv_beta range — all values in [0, 1]
+PASS: dv_beta is time-invariant (max within-occ std = 0.0)
+WARNING: post coding unexpected — post==1 for [2023, 2024, 2025], post==0 for [2019, 2020, 2021, 2022]
+PASS: log_wage — all positive
+WARNING: log_emp has 0 non-positive values
+WARNING: log_wbill has 0 non-positive values
+
+--- Summary Statistics (clean sample) ---
+         dv_beta   log_wage    log_emp  log_wbill       post
+count  4976.0000  4976.0000  4975.0000  4975.0000  4976.0000
+mean      0.3181    11.0334    10.7865    21.8200     0.4287
+std       0.2198     0.4488     1.6711     1.6831     0.4949
+min       0.0000    10.0393     5.0752    16.0932     0.0000
+25%       0.1111    10.6996     9.6084    20.6663     0.0000
+50%       0.3103    10.9905    10.7126    21.7911     0.0000
+75%       0.4891    11.3285    11.9172    22.9550     1.0000
+max       1.0000    12.7954    15.2783    26.8911     1.0000
+
+--- Exposure by Tercile ---
+                     n    mean     min     max
+exposure_tercile                              
+Low               1666  0.0725  0.0000  0.1765
+Mid               1651  0.3159  0.1778  0.4397
+High              1659  0.5671  0.4423  1.0000
+
+=== TASK 2: Construct Variables ===
+PASS: dv_beta_x_post == 0 for all pre-period rows
+
+dv_beta_x_post overall — mean: 0.1364, std: 0.2133
+  post=0: mean=0.0000, std=0.0000
+  post=1: mean=0.3181, std=0.2198
+
+Panel index set: 711 unique occupations, 7 unique time periods
+
+--- Within-Occupation Variation in Outcomes ---
+log_wage: mean within-std=0.0884, min=0.0180, max=0.5803
+log_emp: mean within-std=0.1065, min=0.0082, max=0.6534
+log_wbill: mean within-std=0.1394, min=0.0200, max=0.7346
+
+=== TASK 3: Run Three Parallel OLS DiD Regressions ===
+
+--- Regression: log_wage ---
+Dropped 0 rows with NaN in log_wage or dv_beta_x_post
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:               log_wage   R-squared:                        0.0316
+Estimator:                   PanelOLS   R-squared (Between):             -0.0018
+No. Observations:                4976   R-squared (Within):              -0.2058
+Date:                Wed, May 20 2026   R-squared (Overall):             -0.0018
+Time:                        12:50:16   Log-likelihood                    8611.7
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      138.93
+Entities:                         711   P-value                           0.0000
+Avg Obs:                       6.9986   Distribution:                  F(1,4258)
+Min Obs:                       6.0000                                           
+Max Obs:                       7.0000   F-statistic (robust):             56.835
+                                        P-value                           0.0000
+Time periods:                       7   Distribution:                  F(1,4258)
+Avg Obs:                       710.86                                           
+Min Obs:                       710.00                                           
+Max Obs:                       711.00                                           
+                                                                                
+                               Parameter Estimates                                
+==================================================================================
+                Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------
+dv_beta_x_post    -0.0712     0.0094    -7.5389     0.0000     -0.0897     -0.0527
+==================================================================================
+
+F-test for Poolability: 590.72
+P-value: 0.0000
+Distribution: F(716,4258)
+
+Included effects: Entity, Time
+β (dv_beta_x_post): -0.0712
+SE (clustered):     0.0094
+t-statistic:        -7.5389
+p-value:            0.0000
+Within-R²:          -0.2058
+N observations:     4976
+N entities:         711.0
+
+--- Regression: log_emp ---
+Dropped 1 rows with NaN in log_emp or dv_beta_x_post
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:                log_emp   R-squared:                        0.0037
+Estimator:                   PanelOLS   R-squared (Between):              0.0016
+No. Observations:                4975   R-squared (Within):               0.0056
+Date:                Wed, May 20 2026   R-squared (Overall):              0.0016
+Time:                        12:50:16   Log-likelihood                    3598.3
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      15.646
+Entities:                         711   P-value                           0.0001
+Avg Obs:                       6.9972   Distribution:                  F(1,4257)
+Min Obs:                       6.0000                                           
+Max Obs:                       7.0000   F-statistic (robust):             3.6263
+                                        P-value                           0.0569
+Time periods:                       7   Distribution:                  F(1,4257)
+Avg Obs:                       710.71                                           
+Min Obs:                       710.00                                           
+Max Obs:                       711.00                                           
+                                                                                
+                               Parameter Estimates                                
+==================================================================================
+                Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------
+dv_beta_x_post     0.0654     0.0344     1.9043     0.0569     -0.0019      0.1328
+==================================================================================
+
+F-test for Poolability: 1195.0
+P-value: 0.0000
+Distribution: F(716,4257)
+
+Included effects: Entity, Time
+β (dv_beta_x_post): 0.0654
+SE (clustered):     0.0344
+t-statistic:        1.9043
+p-value:            0.0569
+Within-R²:          0.0056
+N observations:     4975
+N entities:         711.0
+
+--- Regression: log_wbill ---
+Dropped 1 rows with NaN in log_wbill or dv_beta_x_post
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:              log_wbill   R-squared:                     2.551e-05
+Estimator:                   PanelOLS   R-squared (Between):          -7.248e-05
+No. Observations:                4975   R-squared (Within):              -0.0062
+Date:                Wed, May 20 2026   R-squared (Overall):          -7.276e-05
+Time:                        12:50:16   Log-likelihood                    3321.1
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      0.1086
+Entities:                         711   P-value                           0.7418
+Avg Obs:                       6.9972   Distribution:                  F(1,4257)
+Min Obs:                       6.0000                                           
+Max Obs:                       7.0000   F-statistic (robust):             0.0262
+                                        P-value                           0.8713
+Time periods:                       7   Distribution:                  F(1,4257)
+Avg Obs:                       710.71                                           
+Min Obs:                       710.00                                           
+Max Obs:                       711.00                                           
+                                                                                
+                               Parameter Estimates                                
+==================================================================================
+                Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------
+dv_beta_x_post    -0.0058     0.0356    -0.1620     0.8713     -0.0755      0.0640
+==================================================================================
+
+F-test for Poolability: 1068.3
+P-value: 0.0000
+Distribution: F(716,4257)
+
+Included effects: Entity, Time
+β (dv_beta_x_post): -0.0058
+SE (clustered):     0.0356
+t-statistic:        -0.1620
+p-value:            0.8713
+Within-R²:          -0.0062
+N observations:     4975
+N entities:         711.0
+
+=== TASK 4: Compile Summary Table and Run the Accounting Check ===
+
+--- β Summary Table ---
+             beta      se  t_stat  p_value stars  r2_within  n_obs
+outcome                                                           
+log_wage  -0.0712  0.0094 -7.5389   0.0000   ***    -0.2058   4976
+log_emp    0.0654  0.0344  1.9043   0.0569     *     0.0056   4975
+log_wbill -0.0058  0.0356 -0.1620   0.8713          -0.0062   4975
+
+--- Accounting Identity Check ---
+β_wage + β_emp  (implied β_wbill) = -0.0058
+β_wbill (estimated)               = -0.0058
+Discrepancy                        = 0.0000
+Accounting check PASSED: β_wbill ≈ β_wage + β_emp (discrepancy = 0.0000)
+
+--- Economic Magnitudes ---
+std(dv_beta) = 0.2198
+mean(High tercile dv_beta) = 0.5671, mean(Low tercile dv_beta) = 0.0725
+High-Low gap = 0.4946
+           β (raw)  Effect per 1 SD  Effect: High vs Low tercile
+outcome                                                         
+log_wage   -0.0712          -0.0156                      -0.0352
+log_emp     0.0654           0.0144                       0.0323
+log_wbill  -0.0058          -0.0013                      -0.0029
+
+=== TASK 5: Residual Diagnostics and Model Checks ===
+
+--- Observation Counts ---
+log_wage:  N = 4976
+log_emp:   N = 4975
+log_wbill: N = 4975
+Observation counts consistent across all three regressions.
+
+--- Within-R² Comparison ---
+log_wage:  within-R² = -0.2058
+log_emp:   within-R² = 0.0056
+log_wbill: within-R² = -0.0062
+Note: within-R² measures fit after absorbing occupation and year FEs.
+Negative values are possible and do not indicate model failure.
+
+--- Residual Distribution ---
+
+log_wage: mean=0.0000, std=0.0429, skewness=1.1082, kurtosis=52.9850
+  WARNING: Residuals are skewed (skewness = 1.1082). OLS inference relies on asymptotic normality. With N ≈ 4,271 this is likely adequate by CLT, but flag for robustness.
+  Plot saved: /Users/sharkash/Desktop/ECMA/method1_results/figure_m1_residuals_log_wage.png
+
+log_emp: mean=-0.0000, std=0.1174, skewness=-0.1255, kurtosis=5.4213
+  Residual skewness within acceptable range (skewness = -0.1255).
+  Plot saved: /Users/sharkash/Desktop/ECMA/method1_results/figure_m1_residuals_log_emp.png
+
+log_wbill: mean=0.0000, std=0.1241, skewness=-0.0590, kurtosis=5.9533
+  Residual skewness within acceptable range (skewness = -0.0590).
+  Plot saved: /Users/sharkash/Desktop/ECMA/method1_results/figure_m1_residuals_log_wbill.png
+
+
+=== METHOD 1 COMPLETE ===
+
+Objects produced:
+  res_wage   — PanelOLS result object, outcome: log_wage
+  res_emp    — PanelOLS result object, outcome: log_emp
+  res_wbill  — PanelOLS result object, outcome: log_wbill
+  summary_df — DataFrame with β, SE, t, p, stars for all 3 outcomes
+
+Tables printed:
+  Task 1.5  — Summary statistics
+  Task 4.1  — β summary table across 3 outcomes
+  Task 4.2  — Accounting identity check
+  Task 4.3  — Economic magnitudes table
+  Task 5.1  — Observation counts
+  Task 5.2  — Within-R² comparison
+  Task 5.3  — Residual statistics (3 outcomes)
+  Task 6    — Classification and identification caveat
+
+Plots displayed inline:
+  Task 5.3  — Residual distribution histograms (3 plots, one per outcome)
+
+NOT in scope for this script (Method 4 — teammate's responsibility):
+  - Event study regressions (year × dv_beta interactions)
+  - Pre-trend coefficient plots
+  - Joint F-test on pre-period coefficients
+  - Period-by-period β_τ tables
+
