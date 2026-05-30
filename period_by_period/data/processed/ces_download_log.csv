@@ -1,0 +1,17 @@
+supersector_code,supersector_name,filename,emp_status,earn_status
+10,Mining and logging,ce.data.10a.MiningAndLogging.Employment + ce.data.10b.MiningAndLogging.AllEmployeeHoursAndEarnings,ok,ok
+20,Construction,ce.data.20a.Construction.Employment + ce.data.20b.Construction.AllEmployeeHoursAndEarnings,ok,ok
+30,Manufacturing,ce.data.30a.Manufacturing.Employment + ce.data.30b.Manufacturing.AllEmployeeHoursAndEarnings,ok,ok
+31,Durable goods,ce.data.31a.ManufacturingDurableGoods.Employment + ce.data.31b.ManufacturingDurableGoods.AllEmployeeHoursAndEarnings,ok,ok
+32,Nondurable goods,ce.data.32a.ManufacturingNondurableGoods.Employment + ce.data.32b.ManufacturingNondurableGoods.AllEmployeeHoursAndEarnings,ok,ok
+40,"Trade, transportation, and utilities",ce.data.40a.TradeTransportationAndUtilities.Employment + ce.data.40b.TradeTransportationAndUtilities.AllEmployeeHoursAndEarnings,ok,ok
+41,Wholesale trade,ce.data.41a.WholesaleTrade.Employment + ce.data.41b.WholesaleTrade.AllEmployeeHoursAndEarnings,ok,ok
+42,Retail trade,ce.data.42a.RetailTrade.Employment + ce.data.42b.RetailTrade.AllEmployeeHoursAndEarnings,ok,ok
+43,Transportation and warehousing,ce.data.43a.TransportationAndWarehousingAndUtilities.Employment + ce.data.43b.TransportationAndWarehousingAndUtilities.AllEmployeeHoursAndEarnings,ok,ok
+50,Information,ce.data.50a.Information.Employment + ce.data.50b.Information.AllEmployeeHoursAndEarnings,ok,ok
+55,Financial activities,ce.data.55a.FinancialActivities.Employment + ce.data.55b.FinancialActivities.AllEmployeeHoursAndEarnings,ok,ok
+60,Professional and business services,ce.data.60a.ProfessionalBusinessServices.Employment + ce.data.60b.ProfessionalBusinessServices.AllEmployeeHoursAndEarnings,ok,ok
+65,Private education and health services,ce.data.65a.EducationAndHealthCare.Employment + ce.data.65b.EducationAndHealthCare.AllEmployeeHoursAndEarnings,ok,ok
+70,Leisure and hospitality,ce.data.70a.LeisureAndHospitality.Employment + ce.data.70b.LeisureAndHospitality.AllEmployeeHoursAndEarnings,ok,ok
+80,Other services,ce.data.80a.OtherServices.Employment + ce.data.80b.OtherServices.AllEmployeeHoursAndEarnings,ok,ok
+90,Government,ce.data.90a.Government.Employment + N/A,ok,not_collected
